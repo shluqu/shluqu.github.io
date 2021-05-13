@@ -1,34 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
-<rss version="2.0">
-<channel>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
   <!-- Created By http://www.zhetao.com/sitemapcreator,  URLs: 3 Generated at: 2021-05-13 19:21:22 -->
 
-    <item>
-      <title><![CDATA[香港vps推荐]]></title>
-      <link>https://shluqu.github.io/</link>
-      <guid>https://shluqu.github.io/</guid>
-      <author>null</author>
-      <description><![CDATA[本页内容分享给全部开发者最优秀的香港vps,包括国内知名的阿里云轻量香港vps，腾讯云轻量vps，以及知名的vultr性价比最高的vps，这些vps中一般应用与ssr的搭建，v2ray搭建应用，海外建站，外贸建站，wordpress托管，当然还是需要各位小伙伴逐一甄别，本文积累了博主多年建站以来使用的vps，主要以香港vps为主]]></description>
-      <category></category>
-    </item>
+  <url>
+    <loc>https://shluqu.github.io/</loc>
+    <priority>1.00</priority>
+  </url>
 
-    <item>
-      <title><![CDATA[便宜的云虚拟机推荐]]></title>
-      <link>https://shluqu.github.io/virtual.html</link>
-      <guid>https://shluqu.github.io/virtual.html</guid>
-      <author>null</author>
-      <description><![CDATA[云虚拟机结合了许多服务器的资源，因此，不再需要在单个服务器上使用过多资源的问题。如果云中的一台服务器不再工作，则其他服务器可用于介入并确保流量和连续性。这样可以减少您的网站的停机时间。]]></description>
-      <category></category>
-    </item>
+  <url>
+    <loc>https://shluqu.github.io/virtual.html</loc>
+    <priority>1.00</priority>
+  </url>
 
-    <item>
-      <title><![CDATA[香港大带宽cn2服务器推荐]]></title>
-      <link>https://shluqu.github.io/server.html</link>
-      <guid>https://shluqu.github.io/server.html</guid>
-      <author>null</author>
-      <description><![CDATA[香港创业型CN2服务器适合一般性能的普通网站或应用、非密集网络吞吐的轻量型业务、偶尔突发性占用带宽的业务使用，实惠性价比高。]]></description>
-      <category></category>
-    </item>
+  <url>
+    <loc>https://shluqu.github.io/server.html</loc>
+    <priority>1.00</priority>
+  </url>
 
-</channel>
-</rss>
+</urlset>
