@@ -1,0 +1,12 @@
+:root {
+  --primary-color-1: #5db479;
+  --primary-color-2: #65df59;
+  --primary-color-1-rgb: 93,180,121;
+  --primary-color-2-rgb: 101,223,89;
+  --secondary-color-1: #ffab37;
+  --secondary-color-2: #ffc737;
+  
+  --dark-mode-color-1: #171717;
+  --dark-mode-color-2: #1d1d1d;
+  --dark-mode-color-3: #101010;
+}
