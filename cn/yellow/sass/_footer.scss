@@ -1,0 +1,17 @@
+.site-footer {
+	position: relative;
+	z-index: 8;
+	background: rgba($black, 0.6);
+	padding: 40px 0;
+	margin-top: 60px;
+	.social-icons {
+		margin-bottom: 30px;
+	}
+}
+
+.copyright-text {
+	font-size: 12px;
+	a {
+		color: darken($white, 25%);
+	}
+}
