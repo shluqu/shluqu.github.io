@@ -607,7 +607,7 @@ table,table tbody tr th {
 #kratos-header-section {
 	padding: 0;
 	position: absolute;
-	top: -22px;
+	top: -18px;
 	left: 0;
 	width: 100%;
 	z-index: 2
