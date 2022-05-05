@@ -79,7 +79,7 @@ figure {
 }
 
 ::selection {
-	background: #262a30;
+	background: #1e73be;
 	color: #fcfcfc
 }
 
@@ -186,8 +186,8 @@ table,table tbody tr th {
 }
 
 .alert-success {
-	border-color: #3bb273;
-	background-color: #3bb273;
+	border-color: #353d44;
+	background-color: #353d44;
 	color: #fff
 }
 
