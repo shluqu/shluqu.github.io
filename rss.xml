@@ -4,16 +4,34 @@
 
   <url>
     <loc>https://shluqu.github.io/</loc>
+    <lastmod>2022-04-29T08:41:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://shluqu.github.io/virtual.html</loc>
+    <lastmod>2022-04-30T05:41:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
   <url>
     <loc>https://shluqu.github.io/server.html</loc>
+    <lastmod>2022-04-22T09:41:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://shluqu.github.io/hkvps.html</loc>
+    <lastmod>2022-05-02T01:41:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.00</priority>
+  </url>
+  <url>
+    <loc>https://shluqu.github.io/bandwagonhost.html</loc>
+    <lastmod>2022-05-05T12:21:33+00:00</lastmod>
+    <changefreq>daily</changefreq>
     <priority>1.00</priority>
   </url>
 
