@@ -3620,10 +3620,10 @@ input {
 	border: 2px solid #ead2d3;
 }
 button {
-    height:42px;
-    width:42px;
-    cursor:pointer;
-    position:absolute;
+   height: 26px;
+    width: 67px;
+    cursor: pointer;
+    position: absolute;
 }     
 .bar input {
     border:2px solid #c5464a;
