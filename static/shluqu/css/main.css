@@ -3,9 +3,9 @@
 /*
 	Theme Name: shluqu
 	Theme URI: about.shluqu.cn
-	Description:豆丁科技帮助企业定制上云方案，云计算改变了孤立的市场信息，可利用大数据计算挖掘信息中的商机，帮助企业更早地托管网站，定制企业网站，建立企业互联网营销方案。
+	Description:è±†ä¸ç§‘æŠ€å¸®åŠ©ä¼ä¸šå®šåˆ¶ä¸Šäº‘æ–¹æ¡ˆï¼Œäº‘è®¡ç®—æ”¹å˜äº†å­¤ç«‹çš„å¸‚åœºä¿¡æ¯ï¼Œå¯åˆ©ç”¨å¤§æ•°æ®è®¡ç®—æŒ–æŽ˜ä¿¡æ¯ä¸­çš„å•†æœºï¼Œå¸®åŠ©ä¼ä¸šæ›´æ—©åœ°æ‰˜ç®¡ç½‘ç«™ï¼Œå®šåˆ¶ä¼ä¸šç½‘ç«™ï¼Œå»ºç«‹ä¼ä¸šäº’è”ç½‘è¥é”€æ–¹æ¡ˆã€‚
 	Version: 5.6.2
-	Author: 豆丁科技
+	Author: è±†ä¸ç§‘æŠ€
 	Author: about.shluqu.cn
 
 */
@@ -5150,4 +5150,277 @@ footer {
         -webkit-transform: scale(1, 1);
         opacity: 0;
     }
+}
+
+.tpm1-anchor-widget--mini {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 20px;
+    transform: translateY(-50%);
+    width: 44px;
+    font-size: 0;
+    background: #0052d9;
+    box-shadow: 8px 8px 20px 0 rgba(55, 99, 170, .1), -8px -8px 20px 0 #fff;
+    border-radius: 22px;
+    padding: 12px;
+    text-align: center;
+    cursor: pointer
+}
+
+.tpm1-anchor-widget--mini__text {
+    font-weight: 500;
+    font-size: 14px;
+    color: #fff;
+    text-align: center;
+    line-height: 20px
+}
+
+.tpm1-anchor-widget--mini:after {
+    content: "";
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../22-mid-year-buy/images/tpm1-anchor-widget-icon-arrow.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    transform: rotate(90deg);
+    margin-top: 8px
+}
+
+.tpm1-anchor-widget--simple {
+    position: absolute;
+    left: 0;
+    z-index: 999;
+    padding: 12px
+}
+
+.tpm1-anchor-widget--simple.is-def-hidden {
+    visibility: hidden;
+    opacity: 0;
+    pointer-events: none
+}
+
+.tpm1-anchor-widget--simple.is-def-hidden.is-fixed {
+    visibility: visible;
+    opacity: 1;
+    transition: visibility .3s ease-in-out, opacity .3s ease-in-out;
+    pointer-events: auto
+}
+
+.tpm1-anchor-widget--simple.is-fixed {
+    position: fixed;
+    top: 40px
+}
+
+.tpm1-anchor-widget--simple.is-center {
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center
+}
+
+.tpm1-anchor-widget--simple__inner {
+    width: 146px;
+    background: #0052d9;
+    box-shadow: -8px -8px 20px 0 #fff, 8px 8px 20px 0 rgba(55, 99, 170, .1);
+    border-radius: 4px;
+    text-align: center;
+    box-sizing: border-box;
+    transition: all .3s ease-in
+}
+
+.tpm1-anchor-widget--simple__hd {
+    font-weight: 500;
+    font-size: 16px;
+    color: #fff;
+    line-height: 24px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    max-height: 56px;
+    padding: 8px 8px 0;
+    margin-bottom: 8px
+}
+
+.tpm1-anchor-widget--simple__bd {
+    background: #fff;
+    border-radius: 2px;
+    width: 130px;
+    margin: 0 auto
+}
+
+.tpm1-anchor-widget--simple__item,
+.tpm1-anchor-widget--simple__link-wrap {
+    border-bottom: 1px solid #d6dbe3;
+    padding: 8px
+}
+
+.tpm1-anchor-widget--simple__item:last-child,
+.tpm1-anchor-widget--simple__link-wrap:last-child {
+    border-bottom-width: 0
+}
+
+.tpm1-anchor-widget--simple__item-link,
+.tpm1-anchor-widget--simple__link {
+    display: block;
+    font-size: 14px;
+    color: #181818;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    overflow: hidden;
+    max-height: 44px;
+    cursor: pointer
+}
+
+.tpm1-anchor-widget--simple__item-link:hover,
+.tpm1-anchor-widget--simple__link,
+.tpm1-anchor-widget--simple__link:hover {
+    color: #0052d9
+}
+
+.tpm1-anchor-widget--simple__item.is-active {
+    position: relative
+}
+
+.tpm1-anchor-widget--simple__item.is-active .tpm1-anchor-widget--simple__item-link {
+    color: #0052d9
+}
+
+.tpm1-anchor-widget--simple__item.is-active:after,
+.tpm1-anchor-widget--simple__item.is-active:before {
+    content: "";
+    height: 0;
+    width: 0;
+    position: absolute;
+    border: solid transparent;
+    border-left: solid #0052d9;
+    border-width: 7.5px 4px;
+    margin-top: -7.5px;
+    top: 50%
+}
+
+.tpm1-anchor-widget--simple__item.is-active:before {
+    left: 0
+}
+
+.tpm1-anchor-widget--simple__item.is-active:after {
+    right: 0;
+    transform: rotate(180deg)
+}
+
+.tpm1-anchor-widget--simple__list+.tpm1-anchor-widget--simple__links {
+    border-top: 1px solid #d6dbe3
+}
+
+.tpm1-anchor-widget--simple__btn {
+    height: 32px;
+    display: block;
+    background-image: url(../22-mid-year-buy/images/tpm1-anchor-widget-icon-arrow.svg);
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    cursor: pointer
+}
+
+@media screen and (max-width: 1600px) {
+    .tpm1-anchor-widget {
+        width: 0
+    }
+    .tpm1-anchor-widget__inner {
+        transform: translateX(-170px);
+        visibility: hidden
+    }
+    .tpm1-anchor-widget .tpm1-anchor-widget--mini {
+        display: block;
+        left: 20px;
+        opacity: 1;
+        visibility: visible;
+        transition: all .3s ease-in
+    }
+    .tpm1-anchor-widget .tpm1-anchor-widget--mini:hover {
+        display: none
+    }
+    .tpm1-anchor-widget .tpm1-anchor-widget--mini:hover+.tpm1-anchor-widget__inner {
+        transform: none;
+        visibility: visible
+    }
+    .tpm1-anchor-widget:hover {
+        width: auto
+    }
+    .tpm1-anchor-widget:hover .tpm1-anchor-widget__inner {
+        transform: none;
+        visibility: visible
+    }
+    .tpm1-anchor-widget:hover .tpm1-anchor-widget--mini {
+        display: none
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .tpm1-anchor-widget--simple {
+        width: 0
+    }
+    .tpm1-anchor-widget--simple .tpm1-anchor-widget--mini {
+        display: block;
+        left: 20px;
+        opacity: 1;
+        visibility: visible;
+        transition: all .3s ease-in
+    }
+    .tpm1-anchor-widget--simple__inner {
+        transform: translateX(-110px);
+        visibility: hidden
+    }
+    .tpm1-anchor-widget--simple:hover {
+        width: inherit
+    }
+    .tpm1-anchor-widget--simple:hover .tpm1-anchor-widget--mini {
+        left: 110px;
+        opacity: 0;
+        visibility: hidden
+    }
+    .tpm1-anchor-widget--simple:hover .tpm1-anchor-widget--simple__inner {
+        transform: none;
+        visibility: visible
+    }
+}
+
+.tpm1-anchor-widget--simple .tpm1-anchor-widget--mini,
+.tpm1-anchor-widget .tpm1-anchor-widget--mini {
+    box-shadow: none;
+    background-image: url(../22-mid-year-buy/images/side_nav_trigger_mini-bg.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 61px;
+    height: 161px;
+    font-size: 0;
+    padding: 0;
+    background-color: transparent
+}
+
+.tpm1-anchor-widget--simple .tpm1-anchor-widget--mini .tpm1-anchor-widget--mini__text,
+.tpm1-anchor-widget--simple .tpm1-anchor-widget--mini:after,
+.tpm1-anchor-widget .tpm1-anchor-widget--mini .tpm1-anchor-widget--mini__text,
+.tpm1-anchor-widget .tpm1-anchor-widget--mini:after {
+    display: none
+}
+
+.tpm1-anchor-widget--simple .tpm1-anchor-widget--simple__inner {
+    box-shadow: none
+}
+
+.uno-section .uno-section-inner .uno-voucher-multiple.uno-voucher.uno-voucher-middle .uno-voucher-block-count {
+    margin-left: 2px
+}
+
+.tpm1-anchor-widget--mini {
+    box-shadow: none
 }
