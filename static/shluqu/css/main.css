@@ -1875,7 +1875,7 @@ footer {
     }
     .header-section .header-wrapper .menu li .submenu {
         min-width: 260px;
-        background-color: rgba(89, 0, 255, 0.95);
+        background-color: #0062ccd6;
         box-shadow: 0 0 5px rgba(136, 136, 136, 0.1);
         display: block;
         position: absolute;
@@ -1964,7 +1964,7 @@ footer {
         width: 100%;
         max-height: calc(100vh - 130px);
         z-index: 9;
-        background-color: rgba(89, 0, 255, 0.95);
+        background-color: #0062ccd6;
         overflow-y: auto;
         -webkit-transition: all ease 0.3s;
         -moz-transition: all ease 0.3s;
