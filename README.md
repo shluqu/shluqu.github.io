@@ -36,3 +36,6 @@
 |  [2021年国外非常优秀CDN提供商](https://www.shluqu.cn/3165.html "2021年国外非常优秀CDN提供商") |  [Bluehost安装WordPress教程](https://www.shluqu.cn/2580.html "Bluehost安装WordPress教程") |  [SugarHosts安装wordpress教程](https://www.shluqu.cn/2816.html "SugarHosts安装wordpress教程") |
 | [性价比较高的VPS推荐](https://www.shluqu.cn/sample-page "性价比较高的VPS推荐")  | [香港大带宽cn2服务器](https://www.shluqu.cn/18.html "香港大带宽cn2服务器")  |  [比较12家优秀的wordpress网站托管平台](https://www.shluqu.cn/2784.html "比较12家优秀的wordpress网站托管平台") |  [2022年便宜的云虚拟机推荐](https://www.shluqu.cn/16.html "2022年便宜的云虚拟机推荐") |
 
+
+![豆丁博客](https://download.shluqu.cn/wp-content/uploads/2022/07/20220730160634956.png "豆丁博客")
+
