@@ -2,18 +2,196 @@
 豆丁博客主要分享云服务器、vps主机、云虚拟机和网络托管便宜方案，博客收录了49家全球vps主机测评及选购方案!
 
 #### 香港服务器推荐
-| 商家 | 服务器 | CPU核心 | 内存 | 存储 | 带宽 | 月流量 | 月报价 | </td>
-|  :------------  |  :------------  |  :------------  |  :------------  |  :------------  |  :------------  |  :------------  | 
-| 阿里云  | 香港精品网络  | 1核  | 1G  | 25G  | 30Mbps   | 1T   | 24元  | <a href="https://curl.qcloud.com/CRTvJsW9" target="_blank" rel="nofollow noopener">链接</a>  | 
-| 腾讯云  | 香港精品网络  | 1核  | 1G  | 25G  | 30Mbps  | 1T  | 24元  | <a href="https://www.shluqu.cn/go/aliyun.html" target="_blank" rel="nofollow noopener">链接</a> | 
-| 恒创科技 | 香港CN2 | 1核 | 1G  | 50G  | 2 Mbps  | 无限  | 38元 | <a href="http://my.henghost.com/aff.php?aff=7209" target="_blank" rel="nofollow noopener">链接</a> | 
-| UCloud<br>优刻得   | 香港线路  | 1核  | 1G  | 40G  | 1 Mbps  | 无限  | 51元  | <a href="https://www.ucloud.cn/" target="_blank" rel="nofollow noopener">链接</a> | 
-| 快云科技 | 香港CN2 | 1核 | 1G | 10G<br>SSD | 20 Mbps | 200GB | 29元 | <a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener">链接</a> | 
-| 野草云 | 香港VM | 1核 | 1G | 20G<br>SSD | 30 Mbps | 200GB | 38元 | <a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener">链接</a> | 
-| DMIT | 香港1G带宽 | 1核 | 1G | 10G<br>SSD | 1 Gbps | 2000GB | 54元 | <a href="https://www.dmit.io/aff.php?aff=3484" target="_blank" rel="nofollow noopener">链接</a> | 
-| 热网互联 | 香港云主机 | 1核 | 1G | 20G<br>SSD | 15Mbps | 500GB | 24元 | <a href="https://www.hotiis.com/?ref=ZCFHqlag" target="_blank" rel="nofollow noopener">链接</a> | 
-| hostyun | 香港KVM | 1核 | 1G | 10G<br>SSD | 50Mbps | 300 GB | 20元 | <a href="https://my.hostyun.com/page.aspx?c=referral&amp;u=26481" target="_blank" rel="nofollow noopener">链接</a> | 
-| 硅云 | 香港CN2线路 | 1核 | 1G | 25G | 2M | 无限 | 28元 | <a href="https://www.vpsor.cn?userCode=ph15c53" target="_blank" rel="nofollow noopener">链接</a> | 
+<table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>商家</td>
+                                    <td>服务器</td>
+                                    <td>CPU核心</td>
+                                    <td>内存</td>
+                                    <td>存储</td>
+                                    <td>带宽</td>
+                                    <td>月流量</td>
+                                    <td>月报价</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">阿里云</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">香港精品网络</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1核</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">25G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">30Mbps</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1T</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">24元</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;"><a href="https://curl.qcloud.com/CRTvJsW9" target="_blank" rel="nofollow noopener">链接</a></span></font></td>
+                                </tr>
+                                <tr>
+                                    <td><font color="#ff0000"><span style="font-weight: 700;">腾讯云</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">香港精品网络</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1核</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">25G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">30Mbps</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1T</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">24元</span></font>
+                                    </td>
+                                    <td><a href="https://www.shluqu.cn/go/aliyun.html" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">恒创科技</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">香港CN2</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1核</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">50G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">2 Mbps</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">无限</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">38元</span></font>
+                                    </td>
+                                    <td><a href="http://my.henghost.com/aff.php?aff=7209" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">UCloud<br>优刻得</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">香港线路</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1核</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">40G</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">1 Mbps</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">无限</span></font>
+                                    </td>
+                                    <td>
+                                        <font color="#ff0000"><span style="font-weight: 700;">51元</span></font>
+                                    </td>
+                                    <td><a href="https://www.ucloud.cn/" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>快云科技</td>
+                                    <td>香港CN2</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>10G<br>SSD</td>
+                                    <td>20 Mbps</td>
+                                    <td>200GB</td>
+                                    <td>29元</td>
+                                    <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>野草云</td>
+                                    <td>香港VM</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>20G<br>SSD</td>
+                                    <td>30 Mbps</td>
+                                    <td>200GB</td>
+                                    <td>38元</td>
+                                    <td><a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>DMIT</td>
+                                    <td>香港1G带宽</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>10G<br>SSD</td>
+                                    <td>1 Gbps</td>
+                                    <td>2000GB</td>
+                                    <td>54元</td>
+                                    <td><a href="https://www.dmit.io/aff.php?aff=3484" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>热网互联</td>
+                                    <td>香港云主机</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>20G<br>SSD</td>
+                                    <td>15Mbps</td>
+                                    <td>500GB</td>
+                                    <td>24元</td>
+                                    <td><a href="https://www.hotiis.com/?ref=ZCFHqlag" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>hostyun</td>
+                                    <td>香港KVM</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>10G<br>SSD</td>
+                                    <td>50Mbps</td>
+                                    <td>300 GB</td>
+                                    <td>20元</td>
+                                    <td><a href="https://my.hostyun.com/page.aspx?c=referral&amp;u=26481" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+                                <tr>
+                                    <td>硅云</td>
+                                    <td>香港CN2线路</td>
+                                    <td>1核</td>
+                                    <td>1G</td>
+                                    <td>25G</td>
+                                    <td>2M</td>
+                                    <td>无限</td>
+                                    <td>28元</td>
+                                    <td><a href="https://www.vpsor.cn?userCode=ph15c53" target="_blank" rel="nofollow noopener">链接</a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
                                
 
 #### 热门文章
