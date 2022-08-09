@@ -1,0 +1,9 @@
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.142.28.83:8094#k1
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.140.13.124:9137#k2
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.140.13.112:9125#k3
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.142.28.20:8031#k4
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.140.13.119:9132#k5
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.142.28.145:8156#k6
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.142.28.187:8198#k7
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.142.28.130:8141#k8
+socks://Z3lreXByYnk6bWd3N2lxeDN3cnF6@45.140.13.208:9221#k9
