@@ -8,8 +8,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta name="baidu-site-verification" content="code-bo6HgP9gZL">
     <title>适合建站的香港云虚拟机</title>
-    <meta name="description" content="V2Ray是一个于Shadowsocks之后非常好用的代理软件，本文分享一键安装v2ray，v2ray搭建，V2Ray使用教程在科学上网人群之中那么流行。">
-    <meta name="keywords" content="一键安装v2ray，v2ray搭建，V2Ray使用教程，v2ray机场，安装V2Ray">
+    <meta name="description" content="云虚拟主机最大的优势在于操作简单，即买即用，主要用于建站，不需要专业的技术人员来维护。支持各种应用软件灵活扩展，既可以作为Web服务器或者应用服务器单独使用，又可以与其他云服务集成提供丰富的解决方案。">
+    <meta name="keywords" content="云虚拟主机推荐，便宜云虚拟主机，香港云虚拟主机，免费云虚拟主机，美国云虚拟主机">
     <link rel="stylesheet" href="static/shluqu/css/bootstrap.min.css">
     <link rel="stylesheet" href="static/shluqu/css/all.min.css">
     <link rel="stylesheet" href="static/shluqu/css/animate.css">
@@ -77,11 +77,11 @@
     <div class="hero-section bg_img style-two" style="background-color: #0052d9;">
         <div class="container">
             <div class="cate-header cl-white">
-                <h1 class="cate-title">香港vps安装V2Ray，一键安装V2Ray脚本</h1>
+                <h1 class="cate-title">适合建站的香港云虚拟机</h1>
                 <div class="banner-content cl-white">
                     <ul class="breadcrumb mb-0">
                         <li><a href="index.html">首页</a></li>
-                        <li><a href="hongkong-server-v2ray.html">香港vps安装V2Ray，一键安装V2Ray脚本</a></li>
+                        <li><a href="hongkong-server-v2ray.html">适合建站的香港云虚拟机</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,431 +95,540 @@
         <div class="container">
             <div class="category-single-wrapper">
                 <p><span style="margin-top: 0px; margin-bottom: 1em;;"><br></span></p>
-                <p><span style="margin-top: 0px; margin-bottom: 1em;;">V2Ray是近几年十分流行的网络工具，其功能强大，用途不限于突破防火墙，但因其能有效翻墙而广为人知。与另一个知名的翻墙工具Shadowsocks(R)相比，V2ray和SSR区别在于：V2Ray是一个框架/平台，而Shadowsocks(R)是一个代理工具；V2Ray功能强大配置复杂，Shadowsocks(R)简单易用；V2Ray性能更好，协议支持更完善。
-</span></p>
-                <p><span style="margin-top: 0px; margin-bottom: 1em;;">本文分享完整的V2Ray安装教程，不过我想，如果你不太熟悉Linux相关命令，更需要的是一个好用的一键安装脚本……</span></p>
-                <p><span style="margin-top: 0px; margin-bottom: 1em;;">所以，此脚本是为了方便像我这种小小白萌新更加容易去使用 V2Ray，配置 V2Ray。希望对你有帮助 ^_^</span></p>
-                <div id="1" style="padding-top: 150px;"></div>
-                <h2 style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-weight: 600; line-height: 1.25; color: rgb(36, 41, 47); margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted);">V2Ray安装流程</h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">总结一下此文章的大致流程，此 V2Ray 教程可百分百帮助你搭建 V2Ray 使用。哪怕你只是一个小白。</p>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>第一步</td>
-                            <td>购买一个 VPS</td>
-                            <td>想要搭建 V2Ray，就必须要拥有一台 VPS。</td>
-                        </tr>
-                        <tr>
-                            <td>第二步</td>
-                            <td>获取 VPS 信息</td>
-                            <td>我们必须要知道 VPS IP 地址，root 用户密码，SSH 端口</td>
-                        </tr>
-                        <tr>
-                            <td>第三步</td>
-                            <td>安装 Xshell</td>
-                            <td>Xshell 是一个 SSH 客户端，要登录 VPS，当然需要 SSH 客户端</td>
-                        </tr>
-                        <tr>
-                            <td>第四步</td>
-                            <td>登录 VPS</td>
-                            <td>使用 Xshell 配置 VPS SSH 信息，然后登录</td>
-                        </tr>
-                        <tr>
-                            <td>第五步</td>
-                            <td>安装 V2Ray</td>
-                            <td>安装过程你可以随意选择你喜欢的传输协议或者配置 Shadowsocks</td>
-                        </tr>
-                        <tr>
-                            <td>第六步</td>
-                            <td>V2Ray 安装完成</td>
-                            <td>此时你可以使用客户端配置 V2Ray 使用了</td>
-                        </tr>
-                        <tr>
-                            <td>第七步</td>
-                            <td>V2Ray 高级玩法</td>
-                            <td>配置 WebSocket + TLS ， HTTP/2 ， mKCP 等</td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div id="2" style="padding-top: 150px;"></div>
-                <h2 style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-weight: 600; line-height: 1.25; color: rgb(36, 41, 47); margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted);">V2Ray软件下载</h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">本站提供最新版v2ray Windows客户端、v2ray安卓客户端、v2ray mac客户端、v2ray苹果客户端和v2ray Linux客户端下载，并给出各v2ray客户端配置教程。</p>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>V2ray Windows客户端</td>
-                            <td><a href="https://itlanyan.com/download.php?filename=/v2/windows/v2rayN-v5.23.zip" target="_blank" rel="noopener nofollow">v2rayN-v5.23.zip</a></td>
-                            <td><a href="https://github.com/2dust/v2rayN/releases" target="_blank" rel="noopener nofollow">官网下载</a></td>
-                        </tr>
-                        <tr>
-                            <td>V2ray安卓客户端</td>
-                            <td><a href="https://itlanyan.com/download.php?filename=/v2/android/v2rayNG-v1.7.3.apk" target="_blank" rel="noopener nofollow">v2rayNG-v1.7.3.apk</a></td>
-                            <td><a href="https://github.com/2dust/v2rayNG/releases" target="_blank" rel="noopener nofollow">官网下载</a></td>
-                        </tr>
-                        <tr>
-                            <td>V2ray Mac客户端</td>
-                            <td><a href="https://itlanyan.com/download.php?filename=/v2/linux/Qv2ray.v2.7.0.AppImage" target="_blank" rel="noopener nofollow">Qv2ray.v2.7.0.AppImage</a></td>
-                            <td><a href="https://github.com/Qv2ray/Qv2ray/releases" target="_blank" rel="noopener nofollow">官网下载</a></td>
-                        </tr>
-                        <tr>
-                            <td>V2ray Linux客户端</td>
-                            <td><a href="https://itlanyan.com/download.php?filename=/v2/linux/Qv2ray.v2.7.0.AppImage" target="_blank" rel="noopener nofollow">Qv2ray.v2.7.0.AppImage</a></td>
-                            <td><a href="https://github.com/Qv2ray/Qv2ray/releases" target="_blank" rel="noopener nofollow">官网下载</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div id="3" style="padding-top: 150px;"></div>
-                <h2 style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-weight: 600; line-height: 1.25; color: rgb(36, 41, 47); margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted);">购买一台VPS</h2>
-                <p style="line-height: 1.25; margin-top: 24px; margin-bottom: 16px; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted);"><span style="margin-top: 0px; margin-bottom: 1em;;">国内用户最好的机房三网直连优化加CN2 GIA的香港vps、香港服务器的香港IDC服务商，不仅自营数据中心，IP、带宽资源也很充足，其网络线路、vps稳定性都很好，所提供的香港vps租用价格也是非常有性价比。</span></p>
-                <h5 style="margin-top: 0px;margin-bottom: 1em;font-size: 18px;"><span style="margin-top: 0px; margin-bottom: 1em;;">DogYun(狗云)-￥27月付大带宽香港云服务器</span></h5>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;CPU</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;内存</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;硬盘</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;流量</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;价钱</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;购买地址</p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;1个CPU</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;1GB</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;25GB SSD磁盘</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">500 GB<br>50M带宽</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;￥39/月</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;<a href="https://www.dogyun.com/?ref=jv98open" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">1个CPU</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;2GB</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;30GB SSD磁盘</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">800 GB<br>50M带宽<br></p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">￥49/月</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;<a href="https://www.dogyun.com/?ref=jv98open" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></p>
-                            </td>
-                        </tr>
-                        <tr>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">1个CPU</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">2GB</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">30GB SSD磁盘</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">300 GB<br>50M带宽<br></p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">￥59/月</p>
-                            </td>
-                            <td>
-                                <p align="center" style="margin-top: 0px; margin-bottom: 1em;">&nbsp;<a href="https://www.dogyun.com/?ref=jv98open" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></p>
-                            </td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h5 style="margin-top: 0px;margin-bottom: 1em;font-size: 18px;">热网 互联季付七折/28元每月</h5>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>服务计划</td>
-                            <td>内存</td>
-                            <td>CPU</td>
-                            <td>储存空间</td>
-                            <td>带宽/线路</td>
-                            <td>流量</td>
-                            <td>价格</td>
-                        </tr>
-                        <tr>
-                            <td>香港S1-R10</td>
-                            <td>1GB</td>
-                            <td>1核</td>
-                            <td>20GB</td>
-                            <td>15 Mbps/三网直连网络</td>
-                            <td>500G</td>
-                            <td>¥28元</td>
-                            <td><a href="https://www.hotiis.com/?ref=ZCFHqlag" target="_blank" rel="nofollow noopener">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港S2-R10</td>
-                            <td>2GB</td>
-                            <td>2核</td>
-                            <td>40GB</td>
-                            <td>20 Mbps/三网直连网络</td>
-                            <td>1000G</td>
-                            <td>¥56元</td>
-                            <td><a href="https://www.hotiis.com/?ref=ZCFHqlag" target="_blank" rel="nofollow noopener">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港S4-R10</td>
-                            <td>4GB</td>
-                            <td>4核</td>
-                            <td>80GB</td>
-                            <td>30 Mbps/三网直连网络</td>
-                            <td>2000G</td>
-                            <td>¥112元</td>
-                            <td><a href="https://www.hotiis.com/?ref=ZCFHqlag" target="_blank" rel="nofollow noopener">详情</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h5 style="margin-top: 0px;margin-bottom: 1em;font-size: 18px;">野草云</h5>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>服务器</td>
-                            <td>CPU核心</td>
-                            <td>内存</td>
-                            <td>存储</td>
-                            <td>带宽</td>
-                            <td>月流量</td>
-                            <td>月报价</td>
-                            <td>&nbsp;</td>
-                        </tr>
-                        <tr>
-                            <td>香港 | VM.1H1R</td>
-                            <td>1</td>
-                            <td>1GB</td>
-                            <td>20G</td>
-                            <td>30M</td>
-                            <td>200GB</td>
-                            <td>38元/月</td>
-                            <td><a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港 | VM.1H2R</td>
-                            <td>1</td>
-                            <td>2GB</td>
-                            <td>20G</td>
-                            <td>30M</td>
-                            <td>200GB</td>
-                            <td>60元/月</td>
-                            <td><a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港 | VM.2H4R</td>
-                            <td>2</td>
-                            <td>4GB</td>
-                            <td>20G</td>
-                            <td>30M</td>
-                            <td>200GB</td>
-                            <td>118元/月</td>
-                            <td><a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港 | VM.4H8R</td>
-                            <td>4</td>
-                            <td>8GB</td>
-                            <td>20G</td>
-                            <td>30M</td>
-                            <td>200GB</td>
-                            <td>230元/月</td>
-                            <td><a href="https://my.yecaoyun.com/aff.php?aff=1601" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <h5 style="margin-top: 0px;margin-bottom: 1em;font-size: 18px;">快云科技</h5>
-                <table class="table table-bordered">
-                    <tbody>
-                        <tr>
-                            <td>区域</td>
-                            <td>核心数</td>
-                            <td>内存</td>
-                            <td>带宽</td>
-                            <td>流量可升级</td>
-                            <td>固态硬盘</td>
-                            <td>价格</td>
-                            <td></td>
-                        </tr>
-                        <tr>
-                            <td>香港CN2</td>
-                            <td>1核</td>
-                            <td>1G</td>
-                            <td>20M</td>
-                            <td>200G</td>
-                            <td>10G</td>
-                            <td>¥29.00/月</td>
-                            <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港CN2</td>
-                            <td>2核</td>
-                            <td>2G</td>
-                            <td>20M</td>
-                            <td>200G</td>
-                            <td>10G</td>
-                            <td>¥49.00/月</td>
-                            <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港CN2</td>
-                            <td>2核</td>
-                            <td>4G</td>
-                            <td>20M</td>
-                            <td>200G</td>
-                            <td>10G</td>
-                            <td>¥69.00/月</td>
-                            <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港CN2</td>
-                            <td>4核</td>
-                            <td>4G</td>
-                            <td>20M</td>
-                            <td>200G</td>
-                            <td>10G</td>
-                            <td>¥89.00/月</td>
-                            <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                        <tr>
-                            <td>香港CN2</td>
-                            <td>4核</td>
-                            <td>8G</td>
-                            <td>20M</td>
-                            <td>200G</td>
-                            <td>10G</td>
-                            <td>¥129.00/月</td>
-                            <td><a href="http://www.345idc.com/aff/CJKWVOXC" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
-                        </tr>
-                    </tbody>
-                </table>
-                <div id="33" style="padding-top: 150px;"></div>
-                <h2 id="user-content-快速管理-v2ray" style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">
-                    Putty管理vps
-                </h2>
-                <p data-first-child="" data-pid="cU-MTL1i" style="margin-top: 0px; margin-bottom: 1.4em;">1：打开<a href="http://putty.cs.utah.edu/download.html" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">putty软件官网</a>，下载后无需安装直接使用。（比较懒）</p>
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br></p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/FireCapture096.png" data-caption="">
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br></p>
-                <p data-pid="oorw82nZ" style="margin-top: 1.4em; margin-bottom: 1.4em;">2：下载完成，解压之后，直接左键双击打开</p>
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br></p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/1524349a897d8ba.jpg">
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br><br></p>
-                <p data-pid="3rBCV2mh" style="margin-top: 1.4em; margin-bottom: 1.4em;">会出现这样的界面</p>
-                <p class="ztext-empty-paragraph" style="margin-top: -0.8em; margin-bottom: -0.8em;"><br></p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/eac5ae1594ef8f.jpg">
-                <p data-pid="OBDa0HUf" style="margin-top: 1.4em; margin-bottom: 1.4em;">3：在Host Name填入你的IP地址，端口号默认：22，在Saved Sessions填入任意一个名称，点击Save即可。</p>
-                <p class="ztext-empty-paragraph" style="margin-top: -0.8em; margin-bottom: -0.8em;"><br></p>
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br></p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/15f7ccb2b132c84.jpg">
+                <p><span style="margin-top: 0px; margin-bottom: 1em;;">很多人和我之前一样，有点瞧不起云虚拟机，觉得这都是新手，小白用的操作系统！</span></p>
+                <p><span style="margin-top: 0px; margin-bottom: 1em;;">但是我想告诉你，任何产品的存在都是有一定的道理的！国外很多主机商厂家仅仅凭借云虚拟机这一个产品运营了很多年，你能说他的存在是没有价值的吗？</span></p>
+                <p style=" padding-top: 15px; "></p>
+                <p><span style="margin-top: 0px; margin-bottom: 1em;;">这篇文章就要给大家介绍一下<u>云虚拟机的优势和精选的几家特别适合建站的云虚拟机主机商</u></span></p>
 
-                <p data-pid="GENkvVLu" style="margin-top: 1.4em; margin-bottom: 1.4em;">4：填好之后，点击Open，打开putty软件。<br>第一次连接，要点击“是”确认下即可，后面直接连接。</p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/16dcc2165cc377b.jpg">
-                <p style="margin-top: 1.4em; margin-bottom: 1.4em;"><br></p>
-                <p data-pid="a1U8UDJ0" style="margin-top: 1.4em; margin-bottom: 1.4em;">5：输入用户名：root，回车之后，输入密码，当然了，输入密码的时候为了安全性考虑，是不可见的，输入正确了回车就可以连上了，如果密码没有输对，会有提示的。</p>
-                <img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/51cf1843b0af651.jpg">
-                <p data-pid="1ds9dEGq" style="margin-top: 1.4em; margin-bottom: 1.4em;">6：进入vim 编辑器之后，开始写命令，vi/vim编辑器是所有Unix及Linux系统下标准的编辑器，相当于windows系统中的记事本，如果不熟悉的话可以看一下教程。</p>
+                <div id="1" style="padding-top: 60px;"></div>
+                <h2 style="font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-weight: 600; line-height: 1.25; color: rgb(36, 41, 47); margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted);">云虚拟机的优势</h2>
+                <p style="margin-top: 0px; margin-bottom: 1em;;">云虚拟主机最大的优势在于操作简单，即买即用，主要用于建站，不需要专业的技术人员来维护。支持各种应用软件灵活扩展，既可以作为Web服务器或者应用服务器单独使用，又可以与其他云服务集成提供丰富的解决方案。 两者在适用人群及主要配置等方面的详细区别，如下表所示：</p>
+                <table class="table table-bordered" id="table-1e6-6us-ze0">
+                    <caption></caption>
 
-                <div id="4" style="padding-top: 150px;"></div>
-                <h2 style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">安装 V2Ray</h2>
-                <div id="5" style="padding-top: 80px;"></div>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">输入下面命令回车，你可以复制过去，然后在 Xshell 界面按 Shift + Insert 即可粘贴，不能按 Ctrl + V 的。。</p>
-                <div class="snippet-clipboard-content notranslate position-relative overflow-auto" style="color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px; position: relative !important; overflow: auto !important;"><pre class="notranslate" style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin-bottom: 16px; overflow-wrap: normal; padding: 16px; line-height: 1.45; background-color: var(--color-canvas-subtle); border-radius: 6px;color: #e83e8c;"><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; margin: 0px; background-image: initial; background-position: initial; background-size: initial; background-repeat: initial; background-attachment: initial; background-origin: initial; background-clip: initial; border-radius: 6px; word-break: normal; white-space: pre; border-width: 0px; border-style: initial; border-color: initial; display: inline; overflow: visible; line-height: inherit; overflow-wrap: normal;">bash &lt;(curl -s -L https://git.io/v2ray.sh)
-</code></pre></div>
-                <div style="color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 16px;"></div>
-                <blockquote style="margin-bottom: 40px; padding: 0px 1em; color: var(--color-fg-muted); border-left: 0.25em solid var(--color-border-default); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;; font-size: 20px;">
-                    <p style="margin-top: 0px;">如果提示 curl: command not found ，那是因为你的 VPS 没装 Curl<br>ubuntu/debian 系统安装 Curl 方法:&nbsp;<code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">apt-get update -y &amp;&amp; apt-get install curl -y</code><br>centos
-                        系统安装 Curl 方法:&nbsp;<code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">yum update -y &amp;&amp; yum install curl -y</code><br>安装好
-                        curl 之后就能安装脚本了</p>
-                </blockquote>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">然后选择安装，即是输入 1 回车<br>选择传输协议，如果没有特别的需求，使用默认的 TCP 传输协议即可，直接回车<br>选择端口，如果没有特别的需求，使用默认的端口即可，直接回车<br>是否屏蔽广告，除非你真的需要，一般来说，直接回车即可</p>
-                <p style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;"><img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/48456abfd530c53.jpeg" alt="安装 V2Ray" data-canonical-src="https://download.shluqu.cn/wp-content/uploads/2022/202207/cd37187f0851a91.jpg" style="box-sizing: content-box; border-style: none; max-width: 100%; background-color: var(--color-canvas-default); font-size: 16px; font-weight: 400;">
-                    <span style="font-size: 16px; font-weight: 400;"></span>
-                </p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">是否配置 Shadowsocks ，如果不需要就直接回车，否则就输入 Y 回车<br>Shadowsocks 端口，密码，加密方式这些东西自己看情况配置即可，我个人当然是全部直接回车。。<br>OK，按回车继续</p>
-                <p style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;"><img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/3f7abc54d9ccab9.jpeg" alt="配置 Shadowsocks" data-canonical-src="https://download.shluqu.cn/wp-content/uploads/2022/202207/54ac171afa4a1b1.jpg" style="box-sizing: content-box; border-style: none; max-width: 100%; background-color: var(--color-canvas-default); font-size: 16px; font-weight: 400;">
-                    <span style="font-size: 16px; font-weight: 400;"></span>
-                </p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">安装信息，如果确保没有什么问题了，按回车继续</p>
-                <p style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;"><img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/c686636306d722a.jpeg" alt="安装信息" data-canonical-src="https://download.shluqu.cn/wp-content/uploads/2022/202207/5ea2e911685e89f.jpg" style="box-sizing: content-box; border-style: none; max-width: 100%; background-color: var(--color-canvas-default); font-size: 16px; font-weight: 400;">
-                    <span style="font-size: 16px; font-weight: 400;"></span>
-                </p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">(备注，安装信息会因你的配置而变化..不用在乎这截图)<br>(备注，由于我懒…脚本显示的一些信息可能会跟上面的截图有少许不同，但实际上都是很简单明了的)</p>
-                <div id="6" style="padding-top: 150px;"></div>
-                <h2 style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">
-                    V2Ray 安装完成
-                </h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">OK，此时 V2Ray 已经安装完成了。</p>
-                <p style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;"><img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/f0f63d1371a9a2c.jpeg" alt="V2Ray 安装完成" data-canonical-src="https://download.shluqu.cn/wp-content/uploads/2022/202207/dc2bf6fca116.jpg" style="box-sizing: content-box; border-style: none; max-width: 100%; background-color: var(--color-canvas-default); font-size: 16px; font-weight: 400;">
-                    <span style="font-size: 16px; font-weight: 400;"></span>
-                </p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">如上图所示，V2Ray 配置信息，Shadowsocks 配置信息都有了<br>如果你使用过 Shadowsocks ，那么现在你可以测试一下 Shadowsocks 配置了，看看是否能正常使用。<br>如果你使用过 V2Ray 某些客户端，那么现在也可以测试一下配置了。<br>(备注，可能某些 V2Ray 客户端的选项或描述略有不同，但事实上，上面的 V2Ray 配置信息已经足够详细，由于客户端的不同，请对号入座。)</p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;"><br></p>
-                <div id="7" style="padding-top: 150px;"></div>
-                <h2 id="user-content-v2ray-管理面板" style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">V2Ray 管理面板</h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">现在可以尝试一下输入&nbsp;<code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray</code>&nbsp;回车，即可管理
-                    V2Ray
-                </p>
-                <p style="margin-top: 0px; margin-bottom: 1em;;"><img src="https://download.shluqu.cn/wp-content/uploads/2022/202207/56e441ff9b0350d.jpeg" alt="V2Ray 管理面板" data-canonical-src="https://download.shluqu.cn/wp-content/uploads/2022/202207/ea83bda0dcabf4e.jpg" style="box-sizing: content-box; border-style: none; max-width: 100%; background-color: var(--color-canvas-default);"></p>
-                <h2 id="user-content-tcp-阻断" style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">
-                    TCP 阻断
-                </h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;">如果你觉得你的小鸡出现了这种情况，那么可以尝试使用 UDP 协议相关的 mKCP<br>当然，用了我的脚本那是很简单的啦，直接输入&nbsp;<code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray config</code>&nbsp;然后选择修改
-                    V2Ray 传输协议<br>之后再选择 mKCP 相关的就行咯<br>备注：使用 mKCP 或许还可以提高速度，但由于 UDP 的原因也许会被运营商 Qos，这是无解的。</p>
-                <div id="8" style="padding-top: 150px;"></div>
-                <h2 id="user-content-快速管理-v2ray" style="margin-top: 24px; margin-bottom: 16px; font-size: 1.5em; font-weight: 600; line-height: 1.25; padding-bottom: 0.3em; border-bottom: 1px solid var(--color-border-muted); color: rgb(36, 41, 47); font-family: -apple-system, BlinkMacSystemFont, &quot;Segoe UI&quot;, Helvetica, Arial, sans-serif, &quot;Apple Color Emoji&quot;, &quot;Segoe UI Emoji&quot;;">
-                    快速管理 V2Ray
-                </h2>
-                <p style="margin-top: 0px; margin-bottom: 1em;;"><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray info</code>&nbsp;查看
-                    V2Ray 配置信息<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray config</code>&nbsp;修改
-                    V2Ray 配置<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray link</code>&nbsp;生成
-                    V2Ray 配置文件链接<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray infolink</code>&nbsp;生成
-                    V2Ray 配置信息链接<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray qr</code>&nbsp;生成
-                    V2Ray 配置二维码链接<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray ss</code>&nbsp;修改
-                    Shadowsocks 配置<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray ssinfo</code>&nbsp;查看
-                    Shadowsocks 配置信息<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray ssqr</code>&nbsp;生成
-                    Shadowsocks 配置二维码链接<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray status</code>&nbsp;查看
-                    V2Ray 运行状态<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray start</code>&nbsp;启动
-                    V2Ray
-                    <br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray stop</code>&nbsp;停止
-                    V2Ray
-                    <br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray restart</code>&nbsp;重启
-                    V2Ray
-                    <br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray log</code>&nbsp;查看
-                    V2Ray 运行日志<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray update</code>&nbsp;更新
-                    V2Ray
-                    <br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray update.sh</code>&nbsp;更新
-                    V2Ray 管理脚本<br><code style="font-family: ui-monospace, SFMono-Regular, &quot;SF Mono&quot;, Menlo, Consolas, &quot;Liberation Mono&quot;, monospace; font-size: 13.6px; padding: 0.2em 0.4em; margin: 0px; background-color: var(--color-neutral-muted); border-radius: 6px;">v2ray uninstall</code>&nbsp;卸载
-                    V2Ray
-                </p>
-                <p></p>
+                    <thead class="thead" id="thead-uxm-t04-01l">
+                        <tr id="row-hg5-r07-exh">
+                            <th id="concept-2093563-entry-ck3-y0d-e9h">产品</th>
+                            <th id="concept-2093563-entry-thq-kn3-jd9">适用人群</th>
+                            <th id="concept-2093563-entry-s4r-fg5-bs7">优势</th>
+                            <th id="concept-2093563-entry-sh8-lcn-nrj">劣势</th>
+                        </tr>
+                    </thead>
+                    <tbody class="table table-bordered" id="tbody-dkb-9lb-06m">
+                        <tr id="row-kl8-g06-73e">
+                            <td id="entry-3uk-165-a5x">云虚拟主机</td>
+                            <td id="entry-xmt-fv1-y9i">
+                                <ul id="ul-6sq-lob-d9d">
+                                    <li id="li-536-abh-ff4">初级入门建站用户</li>
+                                    <li id="li-mq9-awn-7jr">企业建站用户</li>
+                                </ul>
+                            </td>
+                            <td id="entry-rn5-due-rff">
+                                <ul id="ul-mk2-0v1-y0b">
+                                    <li id="li-m0x-m3r-3mw">搭建网站<u>成本低。</u></li>
+                                    <li id="li-mv9-bpk-s0b">预装了常见的建站运行环境和数据库。</li>
+                                    <li id="li-ic9-ia7-suv">具备图形化控制面板，<u>操作简易。</u></li>
+                                    <li id="li-npj-s7q-hum">网站运行速度快，<u>具备DDoS基础防护能力。</u></li>
+                                    <li id="li-ibr-4bv-dxu">具备专业稳定的服务保障，可随时向售后工程师求助。</li>
+                                </ul>
+                            </td>
+                            <td id="entry-tnw-4f4-ug7">
+                                <ul id="ul-rn2-8no-hn2">
+                                    <li id="li-e2h-8rt-xmh">没有登录服务器权限，无法对服务器或者运行环境配置做个性化定制。</li>
+                                    <li id="li-7cv-4yv-b1j">只能用来建站，无法用于其他用途。</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr id="row-3ue-npc-ezx">
+                            <td id="entry-0jv-lmp-ae4">VPS主机</td>
+                            <td id="entry-pb6-9hu-b1w">
+                                <ul id="ul-f4t-3m0-s2t">
+                                    <li id="li-9fx-rxz-rpf">理解传统网页空间、云虚拟主机及VPS使用方式的入门级云计算用户</li>
+                                    <li id="li-xb5-6zv-ast">需要一个快速进入开发状态的资源集合的个人项目开发者</li>
+                                    <li id="li-i6x-eir-ngd">需要创建个人博客、个人云盘等个人应用的技术业余爱好者或学生</li>
+                                    <li id="li-c6b-ihj-5t6">需要搭建入门级网站环境及资源的中小企业用户</li>
+                                </ul>
+                            </td>
+                            <td id="entry-b41-z9m-gf0">
+                                <ul id="ul-7ds-63u-54x">
+                                    <li id="li-dez-epm-b7m">一键启动服务器或应用。</li>
+                                    <li id="li-w06-4av-19s">一站式的应用管理和服务器运维。</li>
+                                    <li id="li-cex-tg9-9f0">高性能：全产品线使用SSD存储，性能优异。</li>
+                                    <li id="li-2ox-g6z-q70">低成本：计算、存储和网络等多产品打包，价格低于单独购买多个产品的总价。</li>
+                                </ul>
+                            </td>
+                            <td id="entry-k4p-r6w-ryv">需要您具备一定的服务器管理和运维知识。</td>
+                        </tr>
+
+                        <tr id="row-a4z-2fa-746">
+                            <td id="entry-gd2-dip-qa3">SaaS模板建站工具</td>
+                            <td id="entry-xs0-28h-nea">
+                                <ul id="ul-pp0-is6-l1m">
+                                    <li id="li-jia-jcl-9sw">无技术背景的建站用户</li>
+                                    <li id="li-bwp-hfs-0vr">只需要做简单展示网站的建站用户</li>
+                                </ul>
+                            </td>
+                            <td id="entry-48w-qyx-zmn">
+                                <ul id="ul-8hs-3je-qig">
+                                    <li id="li-0pu-omi-5vy">技术门槛低：您只需要懂操作电脑和手机，就可以像制作PPT一样制作网站。</li>
+                                    <li id="li-7xo-h38-sx5">可视化操作：在制作和编辑网站时，您可以实时查看网站展示效果。</li>
+                                    <li id="li-beq-mnh-xvh">预置多套精致网站模板：为您提供设计师专门制作的多套精致模板。</li>
+                                </ul>
+                            </td>
+                            <td id="entry-rio-zm5-85d">
+                                <ul id="ul-ru5-s7m-snk">
+                                    <li id="li-t3z-r0p-ojw">网站内容依赖预置模板内容和编辑工具，个性化空间小。</li>
+                                    <li id="li-axu-g8v-7vl">只能实现简单网站展示功能，不具备更复杂的功能。</li>
+                                    <li id="li-pi8-ijd-pv3">由于不开放源码下载，网站无法迁移，您只能将编辑好的网站放置在当前的服务商处。</li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div id="2" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">Sugarhosts国人最喜欢的糖果主机</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">SugarHosts家的香港服务器是在2014年推出的，其访问速度相对于欧洲，美国的主机速度要快出许多，这对于喜欢糖果主机和香港服务器的站长来说是一个很不错的选择。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/6f88c4cb3a22b60.png" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：美国机房、香港机房</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：支付宝、信用卡、Paypal</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">Sugarhosts优惠码:&nbsp;（<a href="https://www.sugarhosts.com/members/aff.php?aff=3508" target="_blank" rel="nofollow noopener">100Mbps香港VPS仅需49元</a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是香港机房的云虚拟机报价</p>
+                        <table class="table table-bordered">
+                            <thead>
+                                <tr>
+                                    <th>套餐</th>
+                                    <th>可建站</th>
+                                    <th>数据库</th>
+                                    <th>硬盘</th>
+                                    <th>月流量</th>
+                                    <th>价格/年</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Shared Baby</td>
+                                    <td>可建2个网站</td>
+                                    <td>2个 数据库</td>
+                                    <td>10GB</td>
+                                    <td>200GB&nbsp;</td>
+                                    <td><del><span class="strikethrough" style="position: relative;">¥99</span></del>&nbsp;&nbsp;¥383.88</td>
+                                    <td><a href="https://www.sugarhosts.com/members/aff.php?aff=3508" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Shared Pro</td>
+                                    <td>可建20个网站</td>
+                                    <td>20个 数据库</td>
+                                    <td>无限</td>
+                                    <td>1000 GB</td>
+                                    <td><del><span class="strikethrough" style="position: relative;">¥169</span></del>&nbsp;&nbsp;¥503.92</td>
+                                    <td><a href="https://www.sugarhosts.com/members/aff.php?aff=3508" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Shared Business</td>
+                                    <td>可建35个网站</td>
+                                    <td>35个 数据库</td>
+                                    <td>无限</td>
+                                    <td>2000 GB</td>
+                                    <td><del><span class="strikethrough" style="position: relative;">¥289</span></del>&nbsp;&nbsp;¥1142.32</td>
+                                    <td><a href="https://www.sugarhosts.com/members/aff.php?aff=3508" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+                <div id="5" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">Hostinger价格最实惠</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">Hostinger很便宜。因此，如果您想要一个低成本的Web主机，那么这是您开始的逻辑之地。但是请记住，与大多数网络托管服务商一样，Hostinger在定价方面也有一些技巧和窍门。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/Hostinger-logo.png" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：英格兰机房、巴西机房、新加坡机房、美国机房机房、印度尼西亚机房、荷兰机房、立陶宛机房</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：支付宝、信用卡、Paypal</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">Hostinger优惠码:&nbsp;（<a href="http://www.shluqu.cn/go/hostinger.html" target="_blank" rel="nofollow noopener">每月仅需$ 3.98</a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是美国机房的云虚拟机报价</p>
+                        <table style="width: 100%;" border="1" class="table table-bordered" cellspacing="0" cellpadding="2">
+                            <thead>
+                                <tr>
+                                    <th class="col-name">方案名称</th>
+                                    <th class="col-space">磁盘空间</th>
+                                    <th class="col-bandwidth">带宽</th>
+                                    <th class="col-panel">面版</th>
+                                    <th class="col-num-of-sites">网站数量</th>
+                                    <th class="col-price">价格</th>
+                                    <th class="col-action">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>单网站主机</td>
+                                    <td>50 GB</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>1</td>
+                                    <td><strong>￥11.99</strong></td>
+                                    <td><a href="http://www.shluqu.cn/go/hostinger.html" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>高级版虚拟主机</td>
+                                    <td>100 GB</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>100</td>
+                                    <td><strong>￥23.99</strong></td>
+                                    <td><a href="http://www.shluqu.cn/go/hostinger.html" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>商业版虚拟主机</td>
+                                    <td>200 GB</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>100</td>
+                                    <td><strong>￥29.99</strong></td>
+                                    <td><a href="http://www.shluqu.cn/go/hostinger.html" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+                <div id="3" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">Bluehost知名度高，性价比一般</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">BlueHost的价格是最高的，但是它也拥有最高的知名度。Bluehost 为所有预算和规模提供各种托管计划。这包括共享托管、VPS、专用服务器、云托管、WooCommerce 托管、托管 WordPress 托管等。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/bluehost-detailed-review.png" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：美国机房、香港机房、欧洲机房、印度机房</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：支付宝、信用卡、Paypal</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">BlueHost优惠码:&nbsp;（<a href="https://cn.bluehost.com/web-hosting/index.html?a_aid=5f701a3515b56&amp;a_bid=0d58b537" target="_blank" rel="nofollow noopener noreferrer"><strong>虚拟主机七折，服务器九折</strong></a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是共享型主机方案</p>
+                        <table style="width: 100%;" border="1" class="table table-bordered" cellspacing="0" cellpadding="2">
+                            <thead>
+                                <tr>
+                                    <th>方案名称</th>
+                                    <th>磁盘空间</th>
+                                    <th>带宽</th>
+                                    <th>面版</th>
+                                    <th>网站数量</th>
+                                    <th>价格</th>
+                                    <th>Score</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td><small>Basic</small></td>
+                                    <td>50 GB</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td>US$2.95</td>
+                                    <td>4.6</td>
+                                    <td><a title="Basic | Bluehost" href="https://cn.bluehost.com/web-hosting/index.html?a_aid=5f701a3515b56&amp;a_bid=0d58b537" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td><small>Plus</small></td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td>US$5.45</td>
+                                    <td>4.1</td>
+                                    <td><a title="Plus | Bluehost" href="https://cn.bluehost.com/web-hosting/index.html?a_aid=5f701a3515b56&amp;a_bid=0d58b537" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td><small>Choice Plus</small></td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td>US$5.45</td>
+                                    <td>3.6</td>
+                                    <td><a title="Choice Plus | Bluehost" href="https://cn.bluehost.com/web-hosting/index.html?a_aid=5f701a3515b56&amp;a_bid=0d58b537" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td><small>Pro</small></td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td>US$12.95</td>
+                                    <td>4.3</td>
+                                    <td><a title="Pro | Bluehost" href="https://cn.bluehost.com/web-hosting/index.html?a_aid=5f701a3515b56&amp;a_bid=0d58b537" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+                <div id="33" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">A2Hosting超级稳定的欧美主机商</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">A2 Hosting 在我们的 2022 年最佳网络托管服务提供商名单中名列前茅。它速度很快，并在长期计划中提供出色的客户服务和有竞争力的价格。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/aun0m-nza7t.jpg" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：荷兰、新加坡、美国</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：银联、信用卡、paypal</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">A2 Hosting优惠码:&nbsp;（<a href="https://www.a2hosting.com/" target="_blank" rel="nofollow noopener">100Mbps美国仅需21元</a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是美国机房的云虚拟机报价</p>
+                        <table style="width: 100%;" class="table table-bordered" border="1" cellspacing="0" cellpadding="2">
+                            <thead>
+                                <tr>
+                                    <th class="col-name">方案名称</th>
+                                    <th class="col-space">磁盘空间</th>
+                                    <th class="col-bandwidth">带宽</th>
+                                    <th class="col-panel">面版</th>
+                                    <th class="col-num-of-sites">网站数量</th>
+                                    <th class="col-price">价格</th>
+                                    <th class="col-action">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Startup</td>
+                                    <td>100 GB</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>1</td>
+                                    <td><strong>￥21</strong></td>
+                                    <td><a href="https://www.a2hosting.com/" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Drive</td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td><strong>￥41</strong></td>
+                                    <td><a href="https://www.a2hosting.com/" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Turbo Boost</td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td><strong>￥47</strong></td>
+                                    <td><a href="https://www.a2hosting.com/" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>Turbo Max</td>
+                                    <td>无限</td>
+                                    <td>无限</td>
+                                    <td>cPanel</td>
+                                    <td>无限</td>
+                                    <td><strong>￥87</strong></td>
+                                    <td><a href="https://www.a2hosting.com/" target="_blank" rel="nofollow noopener">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+
+
+                <div id="6" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">GreenGeeks：2.49 美元/月</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">GreenGeek不仅致力于保护环境的自然美，也具备许多功能，当中就包括有无限使用的磁碟空间、宽频、域名、电邮及MySQL的数据库数量。他们提供了共享、经销商、VPS及专用托管服务计划，让您能随着企划案的发展来灵活的转换使用配套。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/logo_dghs.png" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：美国芝加哥机房、荷兰阿姆斯特丹机房、美国加利福尼亚机房</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：visa信用卡</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">GreenGeeks官网链接:&nbsp;（<a href="https://www.greengeeks.com/track/pcb900817/cp-default" target="_blank" rel="nofollow noopener">每月收费$2.49 / 月</a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是美国机房的云虚拟机报价</p>
+                        <table style="width: 100%;" class="table table-bordered" border="1" cellspacing="0" cellpadding="2">
+                            <thead>
+                                <tr>
+                                    <th>方案名称</th>
+                                    <th>磁盘空间</th>
+                                    <th>带宽</th>
+                                    <th>面版</th>
+                                    <th>网站数量</th>
+                                    <th>价格</th>
+                                    <th>Score</th>
+                                    <th>&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;"><small>Lite</small></td>
+                                    <td style="text-align: center;">50 GB</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">US$2.49</td>
+                                    <td style="text-align: center;">7.9</td>
+                                    <td style="text-align: center;"><a title="Lite | GreenGeeks" href="https://www.greengeeks.com/track/pcb900817/cp-default" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Pro</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">US$4.95</td>
+                                    <td style="text-align: center;">2.8</td>
+                                    <td style="text-align: center;"><a title="Pro | GreenGeeks" href="https://www.greengeeks.com/track/pcb900817/cp-default" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Everything Unlimited</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">US$8.95</td>
+                                    <td style="text-align: center;">4.6</td>
+                                    <td style="text-align: center;"><a title="Everything Unlimited | GreenGeeks" href="https://www.greengeeks.com/track/pcb900817/cp-default" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+                <div id="7" style="padding-top: 60px;"></div>
+                <div class="panel panel-danger" style="margin-bottom: 20px; border: 1px solid rgb(30, 115, 190); border-radius: 0px; box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 1px;">
+                    <div class="panel-heading" style="padding: 10px 15px; border-bottom: 1px solid rgb(30, 115, 190); border-radius: 0px; border-top-color: rgb(30, 115, 190); border-right-color: rgb(30, 115, 190); border-left-color: rgb(30, 115, 190);">
+                        <h3 class="panel-title" style="margin: 0px;">HostGator国内最喜欢的鳄鱼主机</h3>
+                    </div>
+                    <div class="panel-body" style="padding: 15px;">
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">Host Gator国内最喜欢的鳄鱼主机早在2002年便存在于市面至今，拥有就9百万个域名。如果您比较喜欢喜欢环保，那HostGator就是一家使用风力能源来抵消碳足迹的公司。他们提供了无限量宽频及磁碟空间供使用，大量各种不同的功能也分散在不同的计划配套当中。</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"><img class="alignnone size-medium wp-image-2261" src="static/shluqu/picture/snappy-logo-default.png" alt="" width="300" height="77" layer-index="3" style="height: auto; width: auto; max-width: 100%; display: block; margin: 0px auto; border-radius: 2px;"></p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">数据中心：美国、香港</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">支付方式：Visa信用卡、支付宝、银联卡、Paypal</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">优惠信息:&nbsp;（<a href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener">香港无限带宽硬盘 441元/年</a>）</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">以下是美国机房的云虚拟机报价</p>
+                        <table style="width: 100%;" border="1" class="table table-bordered" cellspacing="0" cellpadding="2">
+                            <thead>
+                                <tr>
+                                    <th style="text-align: center;">方案名称</th>
+                                    <th style="text-align: center;">磁盘空间</th>
+                                    <th style="text-align: center;">带宽</th>
+                                    <th style="text-align: center;">面版</th>
+                                    <th style="text-align: center;">网站数量</th>
+                                    <th style="text-align: center;">价格</th>
+                                    <th style="text-align: center;">Score</th>
+                                    <th style="text-align: center;">&nbsp;</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td style="text-align: center;"><small>Hatchling (无限磁盘,带宽)</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">US$2.75</td>
+                                    <td style="text-align: center;">5.5</td>
+                                    <td style="text-align: center;"><a title="Hatchling (Everything Unlimited) | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Baby<small> (无限磁盘,带宽)</small></small>
+                                    </td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">US$3.50</td>
+                                    <td style="text-align: center;">5.4</td>
+                                    <td style="text-align: center;"><a title="Baby (Everything Unlimited) | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Business<small> (无限磁盘,带宽)</small></small>
+                                    </td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">US$5.25</td>
+                                    <td style="text-align: center;">4.5</td>
+                                    <td style="text-align: center;"><a title="Business (Everything Unlimited) | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Personal (Windows)</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">US$4.76</td>
+                                    <td style="text-align: center;">8.6</td>
+                                    <td style="text-align: center;"><a title="Personal (Windows) | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Enterprise (Windows)</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">5</td>
+                                    <td style="text-align: center;">US$14.36</td>
+                                    <td style="text-align: center;">5.8</td>
+                                    <td style="text-align: center;"><a title="Enterprise (Windows) | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Starter Plan</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">1</td>
+                                    <td style="text-align: center;">US$5.95</td>
+                                    <td style="text-align: center;">4.9</td>
+                                    <td style="text-align: center;"><a title="Starter Plan | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Standard Plan</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">2</td>
+                                    <td style="text-align: center;">US$7.95</td>
+                                    <td style="text-align: center;">4.9</td>
+                                    <td style="text-align: center;"><a title="Standard Plan | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td style="text-align: center;"><small>Business Plan</small></td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">无限</td>
+                                    <td style="text-align: center;">cPanel</td>
+                                    <td style="text-align: center;">3</td>
+                                    <td style="text-align: center;">US$9.95</td>
+                                    <td style="text-align: center;">2.0</td>
+                                    <td style="text-align: center;"><a title="Business Plan | HostGator" href="https://cn.hostgator.com/web-hosting/index.php" target="_blank" rel="nofollow noopener" data-ga-event="hosting plans (more details)">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                        <p style="margin-top: 0px; margin-bottom: 1em;">&nbsp;</p>
+                        <p style="margin-top: 0px; margin-bottom: 1em;"></p>
+                    </div>
+                </div>
+
+
+
+
             </div>
         </div>
     </section>
@@ -577,15 +686,15 @@
                 </div>
                 <div class="tpm1-anchor-widget--simple__bd">
                     <ul class="tpm1-anchor-widget--simple__list">
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#1" class="tpm1-anchor-widget--simple__item-link">V2Ray安装流程</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#2" class="tpm1-anchor-widget--simple__item-link">V2Ray软件下载</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#3" class="tpm1-anchor-widget--simple__item-link">购买一台VPS</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#33" class="tpm1-anchor-widget--simple__item-link">Putty管理vps</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#4" class="tpm1-anchor-widget--simple__item-link">安装 V2Ray</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#5" class="tpm1-anchor-widget--simple__item-link">一键V2Ray代码</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#6" class="tpm1-anchor-widget--simple__item-link">V2Ray 安装完成</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#7" class="tpm1-anchor-widget--simple__item-link">V2Ray 管理面板</a></li>
-                        <li class="tpm1-anchor-widget--simple__item"><a href="#8" class="tpm1-anchor-widget--simple__item-link">快速管理 V2Ray</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#1" class="tpm1-anchor-widget--simple__item-link">云虚拟机的优势</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#2" class="tpm1-anchor-widget--simple__item-link">Sugarhosts<br/>（推荐）</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#5" class="tpm1-anchor-widget--simple__item-link">Hostinger</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#3" class="tpm1-anchor-widget--simple__item-link">Bluehost</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#33" class="tpm1-anchor-widget--simple__item-link">A2Hosting</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#6" class="tpm1-anchor-widget--simple__item-link">GreenGeeks</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="#7" class="tpm1-anchor-widget--simple__item-link">HostGator</a></li>
+
+
                     </ul>
                 </div>
                 <div class="tpm1-anchor-widget--simple__btn"></div>
