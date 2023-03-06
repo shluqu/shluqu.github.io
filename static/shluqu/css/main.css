@@ -5199,6 +5199,7 @@ footer {
 
 .tpm1-anchor-widget--simple.is-def-hidden.is-fixed {
     visibility: visible;
+    margin-left: 280px;
     opacity: 1;
     transition: visibility .3s ease-in-out, opacity .3s ease-in-out;
     pointer-events: auto
