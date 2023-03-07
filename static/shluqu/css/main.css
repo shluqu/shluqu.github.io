@@ -2407,6 +2407,32 @@ footer {
     margin: 0 8px;
 }
 
+---------------------- .breadcrumm {
+    background: transparent;
+}
+
+.breadcrumm li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.breadcrumm img {
+    width: 35px;
+}
+
+.breadcrumm li a {
+    font-size: 18px;
+}
+
+.breadcrumm li a::after {
+    content: "切换简体";
+    font-weight: 600;
+    font-family: "Flaticon";
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
 .cate-header {
     font-size: 18px;
 }
