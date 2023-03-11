@@ -1345,6 +1345,10 @@ input[type="submit"] {
     color: #ffcc00;
 }
 
+.ratings .ubdt {
+    color: #9f9f9f87;
+}
+
 .rtl {
     direction: rtl;
 }
