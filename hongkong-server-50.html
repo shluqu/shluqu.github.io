@@ -33,11 +33,11 @@
                             <img src="static/shluqu/picture/f75336c2714d6ea.png" title="香港vps推荐" alt="香港vps推荐">
                         </a>
                     </div>
-
+                    <div id="div_1"></div>
                 </div>
                 <ul class="menu">
                     <li><a href="index.html" title="香港vps">首页</a></li>
-                    <li><a href="hkvps.html" title="香港vps推荐">香港vps推荐</a>
+                    <li><a href="#0" title="香港vps推荐">香港vps推荐</a>
                         <ul class="submenu">
                             <!--第二层：调用第二级共享栏目-->
                             <li><a href="cheap-vps-cloud-server.html" title="香港云服务器推荐">香港云服务器推荐</a></li>
@@ -57,7 +57,7 @@
                             <li><a href="hongkong-server-tencent.html" class="nav-link nav-toggle " title="最便宜的云虚拟机推荐">300元部署便宜外贸网站</a> </li>
                         </ul>
                     </li>
-                    <li><a href="hongkong-server.html" class="nav-link nav-toggle " title="香港vps按价格分类">香港vps(按价格)</a>
+                    <li><a href="#0" class="nav-link nav-toggle " title="香港vps按价格分类">香港vps(按价格)</a>
                         <ul class="submenu">
                             <!--第二层：调用第二级共享栏目-->
                             <li><a href="hongkong-server.html" title="20元以下香港vps">20元以下香港vps</a></li>
@@ -66,7 +66,7 @@
                             <li><a href="hongkong-physical-server.html" class="nav-link nav-toggle " title="500元香港物理服务器汇总">500元香港物理服务器汇总</a></li>
                         </ul>
                     </li>
-                    <li><a href="Ariyun-International-Substitute.html" class="nav-link nav-toggle " title="香港vps按用途分类">香港vps(按用途)</a>
+                    <li><a href="#0" class="nav-link nav-toggle " title="香港vps按用途分类">香港vps(按用途)</a>
                         <ul class="submenu">
                             <li><a href="hongkong-server-v2ray-2.html" title="适合安装v2Ray的香港vps">适合安装v2Ray的香港vps</a></li>
                             <li><a href="large-bandwidth.html" title="香港大带宽vps（15M~50M）推荐">香港大带宽vps(50M左右)推荐</a></li>
@@ -77,6 +77,11 @@
                         </ul>
                     </li>
                 </ul>
+                <div class="header-bar d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
                 <div class="header-right">
                     <a href="hongkong-server-list.html" class="header-button d-none d-md-inline-block">文章导航</a>
                 </div>
@@ -732,8 +737,8 @@
                                 <li><a href="https://shluqu.github.io/server.html">香港云服务器</a></li>
                                 <li><a href="https://shluqu.github.io/Physical-server.html">香港物理服务器</a></li>
                                 <li><a href="https://shluqu.github.io/large-bandwidth.html">香港大带宽服务器</a></li>
-                                <li><a href="https://shluqu.github.io/virtual.html">云虚拟主机</a></li>
-                                <li><a href="https://shluqu.github.io/hkvps.html">香港vps</a></li>
+                                <li><a href="https://shluqu.github.io/us/index.htmll">美国vps</a></li>
+                                <li><a href="https://shluqu.github.io/jp/index.html">日本vps</a></li>
                             </ul>
                         </div>
                     </div>
@@ -758,6 +763,11 @@
     </footer>
     <!--============= Footer Section Ends Here =============-->
 
+    <script>
+        var div_child = '<div class="support"> <ul class="menu" style="margin-right: -8px;"> <li> <a href="#0" style="padding: 7px 5px;font-size: 15px;"><img src="static/shluqu/newimg/hk.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">香港机房</a> <ul class="submenu" style="min-width: 130px;"> <li> <a href="jp/index.html" style="font-size: 13px;"><img src="static/shluqu/newimg/jp.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">日本机房</a> </li> <li> <a href="us/index.html" style="font-size: 13px;"><img src="static/shluqu/newimg/us.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">美国机房</a> </li> </ul> </li> </ul> </div>'
+        var c = document.getElementById('div_1');
+        c.innerHTML += div_child;
+    </script>
     <script src="static/shluqu/js/jquery-3.3.1.min.js"></script>
     <script src="static/shluqu/js/modernizr-3.6.0.min.js"></script>
     <script src="static/shluqu/js/plugins.js"></script>

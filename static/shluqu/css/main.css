@@ -1809,7 +1809,7 @@ footer {
 }
 
 .header-section .header-wrapper .logo-area .logo {
-    width: 177px;
+    width: 160px;
     margin-right: 20px;
 }
 
@@ -1822,7 +1822,6 @@ footer {
 }
 
 .header-section .header-wrapper .logo-area .support {
-    padding-left: 20px;
     border-left: 1px solid #8854e9;
     font-size: 18px;
     font-weight: 600;
