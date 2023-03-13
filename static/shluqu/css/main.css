@@ -1142,7 +1142,8 @@ input[type="submit"] {
 /*Section Header*/
 
 .mb-30-none {
-    margin-bottom: -30px !important;
+    margin-top: 30px !important;
+    margin-bottom: 10px !important;
 }
 
 .tab-item {
@@ -1342,6 +1343,10 @@ input[type="submit"] {
 
 .ratings span {
     color: #ffcc00;
+}
+
+.ratings .ubdt {
+    color: #9f9f9f87;
 }
 
 .rtl {
@@ -1808,7 +1813,7 @@ footer {
 }
 
 .header-section .header-wrapper .logo-area .logo {
-    width: 177px;
+    width: 160px;
     margin-right: 20px;
 }
 
@@ -1821,7 +1826,6 @@ footer {
 }
 
 .header-section .header-wrapper .logo-area .support {
-    padding-left: 20px;
     border-left: 1px solid #8854e9;
     font-size: 18px;
     font-weight: 600;
@@ -2407,12 +2411,38 @@ footer {
     margin: 0 8px;
 }
 
+---------------------- .breadcrumm {
+    background: transparent;
+}
+
+.breadcrumm li {
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+.breadcrumm img {
+    width: 35px;
+}
+
+.breadcrumm li a {
+    font-size: 18px;
+}
+
+.breadcrumm li a::after {
+    content: "切换简体";
+    font-weight: 600;
+    font-family: "Flaticon";
+    font-size: 14px;
+    display: inline-block;
+    margin: 0 8px;
+}
+
 .cate-header {
     font-size: 18px;
 }
 
 .cate-header .cate-title {
-    font-size: 70px;
+    font-size: 60px;
     line-height: 80px;
     margin-bottom: 22px;
 }
@@ -5177,7 +5207,6 @@ footer {
     display: inline-block;
     width: 16px;
     height: 16px;
-    background-image: url(../22-mid-year-buy/images/tpm1-anchor-widget-icon-arrow.svg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -5200,6 +5229,7 @@ footer {
 
 .tpm1-anchor-widget--simple.is-def-hidden.is-fixed {
     visibility: visible;
+    margin-left: 220px;
     opacity: 1;
     transition: visibility .3s ease-in-out, opacity .3s ease-in-out;
     pointer-events: auto
@@ -5254,7 +5284,7 @@ footer {
 .tpm1-anchor-widget--simple__item,
 .tpm1-anchor-widget--simple__link-wrap {
     border-bottom: 1px solid #d6dbe3;
-    padding: 8px
+    padding: 5px
 }
 
 .tpm1-anchor-widget--simple__item:last-child,
@@ -5319,7 +5349,6 @@ footer {
 .tpm1-anchor-widget--simple__btn {
     height: 32px;
     display: block;
-    background-image: url(../22-mid-year-buy/images/tpm1-anchor-widget-icon-arrow.svg);
     background-size: 16px 16px;
     background-repeat: no-repeat;
     background-position: 50%;

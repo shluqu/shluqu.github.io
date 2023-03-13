@@ -1,0 +1,323 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: calc(max(100vh, 400px));
+    color: #222;
+    font-family: "Plus Jakarta Sans", sans-serif;
+}
+
+body article {
+    width: 100%;
+    max-width: 1000px;
+}
+
+body article header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    min-height: 400px;
+    padding: 50px;
+    border-radius: 16px;
+    color: #000;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body article header .upper-header {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 20px;
+}
+
+body article header .upper-header .mini-title {
+    font-size: 1.125rem;
+    font-weight: bold;
+    letter-spacing: 0.4rem;
+    opacity: 0.9;
+}
+
+body article header .upper-header .date-since {
+    display: flex;
+    align-items: center;
+    opacity: 0.5;
+    font-size: 0.875rem;
+}
+
+body article header .upper-header .date-since .date-value {
+    display: inline-block;
+    padding-bottom: 2px;
+}
+
+body article header .upper-header .date-since svg {
+    width: 20px;
+    margin-left: 10px;
+}
+
+body article header .lower-header {
+    padding-top: 50px;
+}
+
+body article header .lower-header .tags-container {
+    display: flex;
+    align-items: center;
+    opacity: 0.75;
+    margin-bottom: 12px;
+}
+
+body article header .lower-header .tags-container>span:not(:nth-child(2))::before {
+    content: ", ";
+}
+
+body article header .lower-header .tags-container svg {
+    width: 20px;
+    margin-right: 10px;
+}
+
+body article header .lower-header .tags-container span {
+    font-size: 0.875rem;
+}
+
+body article header .lower-header .title {
+    margin: 20px 0;
+    font-size: 2.4rem;
+    font-weight: bold;
+    opacity: 0.9;
+}
+
+body article header .lower-header .subtitle {
+    width: 80%;
+    margin-top: 10px;
+    opacity: 0.75;
+    line-height: 1.75;
+}
+
+body .summary {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    padding: 30px 50px;
+    border-radius: 16px;
+    box-shadow: 0 0 0 1px #f2f2f2;
+}
+
+body .summary .summary-item {
+    width: 100%;
+    padding-right: 20px;
+}
+
+body .summary .summary-item .item-title {
+    color: #999;
+}
+
+body .summary .summary-item .item-text {
+    margin-top: 12px;
+    font-size: 1.5rem;
+}
+
+body .main-article {
+    width: 100%;
+    margin-top: 50px;
+    padding-bottom: 50px;
+    line-height: 1.75;
+}
+
+body .main-article h4 {
+    margin-top: 60px;
+    margin-bottom: 20px;
+    font-size: 1.25em;
+}
+
+body .main-article p {
+    margin-bottom: 20px;
+    color: #777;
+    font-size: 1.125em;
+}
+
+body .main-article blockquote {
+    position: relative;
+    margin: 40px 0;
+    padding: 40px;
+    background-color: #f8f8f8;
+    border-radius: 16px;
+}
+
+body .main-article blockquote::before {
+    content: url("https://icons.craftwork.design/static/media/QuotesFill.f65b03951f44e212816420b00909f4df.svg");
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    transform: scale(2);
+    opacity: 0.1;
+}
+
+body .main-article blockquote::after {
+    content: url("https://icons.craftwork.design/static/media/QuotesFill.f65b03951f44e212816420b00909f4df.svg");
+    position: absolute;
+    bottom: -10px;
+    right: -10px;
+    transform: scale(2) rotate(180deg);
+    opacity: 0.1;
+}
+
+body .main-article .gallery {
+    display: grid;
+    gap: 20px;
+    grid-template-areas: "img1 img1 img2 img3" "img1 img1 img4 img5";
+    min-height: 400px;
+    margin-top: 40px;
+}
+
+body .main-article .gallery .image-item {
+    min-height: 200px;
+    background-color: #eee;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    transition: 250ms;
+}
+
+body .main-article .gallery .image-item:hover {
+    opacity: 0.9;
+    cursor: pointer;
+}
+
+body .main-article .gallery .image-1 {
+    grid-area: img1;
+}
+
+body .main-article .gallery .image-2 {
+    grid-area: img2;
+}
+
+body .main-article .gallery .image-3 {
+    grid-area: img3;
+}
+
+body .main-article .gallery .image-4 {
+    grid-area: img4;
+}
+
+body .main-article .gallery .image-5 {
+    grid-area: img5;
+}
+
+body .main-article .gallery .gallery-mask {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    padding: 40px;
+    background-color: #22222288;
+    transition: 500ms;
+}
+
+body .main-article .gallery .gallery-mask img {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: contain;
+    object-fit: contain;
+    transition: 500ms;
+}
+
+body .main-article .gallery .mask-off {
+    visibility: hidden;
+    background-color: #22222200;
+}
+
+body .main-article .gallery .mask-off img {
+    visibility: hidden;
+    opacity: 0;
+}
+
+@media screen and (max-width: 1024px) {
+    body {
+        padding: 50px;
+    }
+    body article header .lower-header .subtitle {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    body article header .lower-header .title {
+        word-break: break-all;
+    }
+    body article .summary {
+        flex-direction: column;
+    }
+    body article .summary .summary-item:not(:last-child) {
+        padding-bottom: 30px;
+    }
+    body article .main-article .gallery {
+        grid-template-areas: "img1 img1" "img1 img1" "img2 img3" "img4 img5";
+    }
+}
+
+@media screen and (max-width: 425px) {
+    body {
+        padding: 25px;
+    }
+    body article header .upper-header .date-since {
+        display: none;
+    }
+}
+
+#myInput {
+    background-image: url('/css/searchicon.png');
+    /* 添加搜索按钮 */
+    background-position: 10px 12px;
+    /* 定位搜索按钮 */
+    background-repeat: no-repeat;
+    /* 图片不重复 */
+    width: 100%;
+    /* 全屏幕显示 */
+    font-size: 16px;
+    /* 字体大小 */
+    padding: 12px 20px 12px 40px;
+    /* 设置内边距 */
+    border: 1px solid #ddd;
+    /* 添加灰色边框 */
+    margin-bottom: 12px;
+    /* 添加顶部的外边距 */
+}
+
+#myTable {
+    border-collapse: collapse;
+    /* 折叠边框 */
+    width: 100%;
+    /* 全屏幕显示 */
+    border: 1px solid #ddd;
+    /* 设置灰色边框 */
+    font-size: 18px;
+    /* 字体大小 */
+}
+
+#myTable th,
+#myTable td {
+    text-align: left;
+    /* 文本靠左对齐 */
+    padding: 12px;
+    /* 设置内边距 */
+}
+
+#myTable tr {
+    /* 每一行设置底部边框*/
+    border-bottom: 1px solid #ddd;
+}
+
+#myTable tr.header,
+#myTable tr:hover {
+    /* 表格头部设置背景 */
+    background-color: #f1f1f1;
+}
