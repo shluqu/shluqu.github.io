@@ -8,190 +8,124 @@
 <priority>1.0</priority>
 </url>
 <url>
-<loc>https://shluqu.github.io/us/index.html</loc>
-<lastmod>2023-03-11T11:22:22+18:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/jp/index.html</loc>
-<lastmod>2023-03-11T12:12:12+18:00</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/hongkong-server-list.html</loc>
-<lastmod>2023-03-07T14:22:42+18:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/hongkong-server-single-price.html</loc>
-<lastmod>2023-02-27T04:42:42+18:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.5</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/Ariyun-International-Substitute.html</loc>
-<lastmod>2023-03-07T02:42:22+18:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/hongkong-bandwagonhost-single.html</loc>
-<lastmod>2023-02-27T05:48:42+18:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/hongkong-server-application-classification.html</loc>
-<lastmod>2023-02-26T07:42:22+18:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/large-bandwidth-1gb.html</loc>
-<lastmod>2023-02-28T05:42:32+08:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/bandwagonhost-why.html</loc>
-<lastmod>2023-02-26T12:45:32+08:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/server-hongkong-gia.html</loc>
-<lastmod>2023-02-24T15:45:32+08:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
-<loc>https://shluqu.github.io/International-alibaba-cloud-price.html</loc>
-<lastmod>2023-02-19T15:58:32+08:00</lastmod>
-<changefreq>daily</changefreq>
- <priority>0.8</priority>
-</url>
-<url>
 <loc>https://shluqu.github.io/cheap-vps-cloud-server.html</loc>
-<lastmod>2023-02-24T15:58:32+08:00</lastmod>
+<lastmod>2023-02-05T15:58:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-v2ray-2.html</loc>
 <lastmod>2023-02-05T16:58:22+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/cheap-hk-cloud-server-vps.html</loc>
 <lastmod>2023-02-05T17:58:12+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/cheap-hk-cloud-server-stability.html</loc>
 <lastmod>2023-02-05T18:58:02+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/cheap-hk-cloud-server-ldmnq.html</loc>
 <lastmod>2023-02-05T19:58:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-tencent.html</loc>
 <lastmod>2022-07-09T08:00:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-web-hosting.html</loc>
 <lastmod>2022-07-10T23:53:22+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-cloud-server-cn2.html</loc>
 <lastmod>2022-07-10T23:45:12+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-exempt-from-filing.html</loc>
 <lastmod>2022-07-10T23:43:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-cloud-server.html</loc>
-<lastmod>2022-07-12T23:33:52+08:00</lastmod>
+<lastmod>2022-07-100T23:33:52+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/cheap-hong-kong-vps.html</loc>
 <lastmod>2022-07-03T15:24:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/china-cloud-server.html</loc>
 <lastmod>2022-07-06T19:24:42+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-iplc.html</loc>
 <lastmod>2022-07-09T04:24:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-v2ray.html</loc>
 <lastmod>2022-06-25T22:25:52+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server.html</loc>
 <lastmod>2022-07-04T19:34:42+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-dedicated-single-hosting.html</loc>
 <lastmod>2022-07-01T16:54:32+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-large-bandwidth-cloud-server.html</loc>
 <lastmod>2022-07-01T16:43:52+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-High-bandwidth-server.html</loc>
 <lastmod>2022-07-01T16:39:22+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-rent.html</loc>
 <lastmod>2022-07-01T16:31:15+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single-hosting.html</loc>
 <lastmod>2022-07-01T16:33:22+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.5</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hongkong-server-single.html</loc>
@@ -221,40 +155,40 @@
 <loc>https://shluqu.github.io/cheap-vps.html</loc>
 <lastmod>2022-06-29T16:36:52+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/large-bandwidth.html</loc>
 <lastmod>2022-06-29T13:25:52+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/Physical-server.html</loc>
 <lastmod>2022-06-25T21:15:59+08:00</lastmod>
 <changefreq>daily</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/hkvps.html</loc>
 <lastmod>2022-03-28T11:34:52+08:00</lastmod>
 <changefreq>monthly</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/bandwagonhost.html</loc>
 <changefreq>weekly</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/virtual.html</loc>
 <changefreq>weekly</changefreq>
- <priority>0.8</priority>
+<priority>0.3</priority>
 </url>
 <url>
 <loc>https://shluqu.github.io/server.html</loc>
 <lastmod>2022-03-28T19:36:52+08:00</lastmod>
 <changefreq>weekly</changefreq>
-<priority>0.8</priority>
+<priority>0.5</priority>
 </url>
 </urlset>
