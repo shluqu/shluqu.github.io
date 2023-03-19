@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="baidu-site-verification" content="code-bo6HgP9gZL">
+    <title>如何在香港VPS托管静态资源(图片、视频)</title>
+    <meta name="description" content="将静态资源托管在香港VPS上，如在香港vps上存储大量的图片，可以更快地响应用户的访问请求，减少页面加载时间，提高用户体验。">
+    <meta name="keywords" content="香港VPS，托管静态资源，图片托管，图片存储，视频托管">
+    <link rel="stylesheet" href="static/shluqu/css/bootstrap.min.css">
+    <link rel="stylesheet" href="static/shluqu/css/all.min.css">
+    <link rel="stylesheet" href="static/shluqu/css/animate.css">
+    <link rel="stylesheet" href="static/shluqu/css/nice-select.css">
+    <link rel="stylesheet" href="static/shluqu/css/owl.min.css">
+    <link rel="stylesheet" href="static/shluqu/css/magnific-popup.css">
+    <link rel="stylesheet" href="static/shluqu/css/flaticon.css">
+    <link rel="stylesheet" href="static/shluqu/css/main.css">
+
+    <link rel="icon" type="image/x-icon" href="https://shluqu.github.io/favicon.png">
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-5952545362867537" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <header class="header-section">
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="logo-area">
+                    <div class="logo">
+                        <a href="https://shluqu.github.io/" title="香港vps推荐" alt="香港vps推荐">
+                            <img src="static/shluqu/picture/f75336c2714d6ea.png" title="香港vps推荐" alt="香港vps推荐">
+                        </a>
+                    </div>
+                    <div id="div_1"></div>
+                </div>
+                <ul class="menu">
+                    <li><a href="index.html" title="香港vps">首页</a></li>
+                    <li><a href="#0" title="香港vps推荐">香港vps推荐</a>
+                        <ul class="submenu" style="min-width: 568px;">
+                            <div class="row justify-content-center mb-30-none">
+                                <div class="col-lg-6 col-md-6">
+                                    <li><a href="bandwagonhost.html" title="搬瓦工优惠码">搬瓦工优惠码</a></li>
+                                    <li><a href="bandwagonhost-chinese.html" title="搬瓦工管理面板(中文参照界面)">搬瓦工管理面板(中文参照界面)</a></li>
+                                    <li><a href="bandwagonhost-why.html" title="为什么大家在推荐搬瓦工？">为什么大家在推荐搬瓦工？</a></li>
+                                    <li><a href="hongkong-server-v2ray.html" class="nav-link nav-toggle " title="一键安装V2Ray教程">一键安装V2Ray教程</a></li>
+                                    <li><a href="hongkong-server-iplc.html" class="nav-link nav-toggle " title="iplc专线服务器推荐">iplc专线服务器推荐</a></li>
+                                    <li><a href="domestic-vps.html" class="nav-link nav-toggle " title="香港vps搭建网络加速器！">香港vps搭建网络加速器！</a></li>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <li><a href="server.html" class="nav-link nav-toggle " title="香港cn2线路云服务器">香港cn2线路云服务器</a></li>
+                                    <li><a href="server-hongkong-gia.html" class="nav-link nav-toggle " title="香港CN2 GIA优质线路vps推荐">香港CN2 GIA优质线路vps推荐</a></li>
+                                    <li><a href="china-cloud-server.html" class="nav-link nav-toggle " title="最便宜的云虚拟机推荐">中国云服务器托管商报价</a></li>
+                                    <li><a href="cheap-vps-cloud-server.html" title="香港云服务器推荐">香港云服务器推荐</a></li>
+                                    <li><a href="register-national-alibaba-cloud.html" class="nav-link nav-toggle " title="国际阿里云报价方案(完整)">虚拟visa卡注册国际阿里云</a> </li>
+                                    <li><a href="Ariyun-International-Substitute.html" class="nav-link nav-toggle " title="阿里云国际版代购">阿里云国际版代购</a> </li>
+                                    <li><a href="International-alibaba-cloud-price.html" class="nav-link nav-toggle " title="国际阿里云报价方案(完整)">国际阿里云报价方案(完整)</a> </li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                    <li><a href="#0" class="nav-link nav-toggle " title="香港vps按价格分类">香港vps(按价格)</a>
+                        <ul class="submenu">
+                            <!--第二层：调用第二级共享栏目-->
+                            <li><a href="hongkong-server.html" title="20元以下香港vps">20元以下香港vps</a></li>
+                            <li><a href="cheap-hong-kong-vps.html" class="nav-link nav-toggle " title="25元左右优质线路香港vps">25元左右优质线路香港vps</a></li>
+                            <li><a href="hongkong-server-50.html" class="nav-link nav-toggle " title="50元左右香港Vps汇总">50元左右香港Vps汇总</a></li>
+                            <li><a href="hongkong-physical-server.html" class="nav-link nav-toggle " title="500元香港物理服务器汇总">500元香港物理服务器汇总</a></li>
+                            <li><a href="cheap-vps.html" class="nav-link nav-toggle " title="最便宜的云虚拟机推荐">最便宜的香港vps多少钱一个月?</a></li>
+                            <li><a href="hongkong-server-tencent.html" class="nav-link nav-toggle " title="最便宜的云虚拟机推荐">300元部署便宜外贸网站</a> </li>
+                            <li><a href="Physical-server.html" class="nav-link nav-toggle " title="香港cn2线路云服务器">便宜香港物理服务器</a></li>
+                            <li><a href="virtual.html" class="nav-link nav-toggle " title="最便宜的云虚拟机推荐">最便宜的云虚拟机推荐</a> </li>
+                        </ul>
+                    </li>
+                    <li><a href="#0" class="nav-link nav-toggle " title="香港vps按用途分类">香港vps(按用途)</a>
+                        <ul class="submenu helsd" style="min-width: 568px;">
+                            <div class="row justify-content-center mb-30-none">
+                                <div class="col-lg-6 col-md-6">
+                                    <li><a href="hongkong-server-v2ray-2.html" title="适合安装v2Ray的香港vps">适合安装v2Ray的香港vps</a></li>
+                                    <li><a href="large-bandwidth.html" title="香港大带宽vps（15M~50M）推荐">香港大带宽vps(50M左右)推荐</a></li>
+                                    <li><a href="cheap-hk-cloud-server-vps.html" class="nav-link nav-toggle " title="适合建站的香港云虚拟机">适合建站的香港云虚拟机</a></li>
+                                    <li><a href="cheap-hk-cloud-server-stability.html" class="nav-link nav-toggle " title="追求网络稳定性的香港vps">追求网络稳定性的香港vps</a></li>
+                                    <li><a href="cheap-hk-cloud-server-ldmnq.html" class="nav-link nav-toggle " title="适合跑模拟器香港物理机">适合跑模拟器香港物理机</a></li>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <li><a href="large-bandwidth-1gb.html" title="1G超大带宽香港vps推荐">1G超大带宽香港vps推荐</a></li>
+                                    <li><a href="reliable-large-hard-disk-in-hong-kong.html" title="10TB香港大硬盘服务器">10TB香港大硬盘服务器</a></li>
+                                    <li><a href="hongkong-server-game-agent.html" title="如何使用香港VPS搭建游戏代理">如何使用香港VPS搭建游戏代理</a></li>
+                                    <li><a href="hongkong-server-video-site.html" title="如何在香港VPS托管静态资源">如何在香港VPS托管静态资源</a></li>
+                                </div>
+                            </div>
+                        </ul>
+                    </li>
+                </ul>
+                <div class="header-bar d-lg-none">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>
+                <div class="header-right">
+                    <a href="hongkong-server-list.html" class="header-button d-none d-md-inline-block">文章导航</a>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!--============= Banner Section Starts Here =============-->
+    <div class="hero-section bg_img style-two" style="background-color: #0052d9;">
+        <div class="container">
+            <div class="cate-header cl-white">
+                <h1 class="cate-title">如何在香港VPS托管静态资源(图片、视频)</h1>
+                <div class="banner-content cl-white">
+                    <ul class="breadcrumb mb-0">
+                        <li><a href="index.html">首页</a></li>
+                        <li><a href="hongkong-server-video-site.html">如何在香港VPS托管静态资源(图片、视频)</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============= Banner Section Ends Here =============-->
+
+
+    <!--============= Category Section Starts Here =============-->
+    <section class="category-section padding-bottom mt--160 pos-rel">
+        <div class="container">
+            <div class="category-single-wrapper">
+                <div>将静态资源托管在香港VPS上，如在香港vps上存储大量的图片，可以更快地响应用户的访问请求，减少页面加载时间，提高用户体验。</div>
+                <div>使用香港VPS服务器托管静态资源，可以避免因共享服务器资源导致的页面崩溃、访问缓慢等问题，提高访问稳定性。相较于云存储、CDN等服务，使用VPS服务器进行静态资源托管可以节约成本，尤其是对于小型网站、应用而言更为实惠。</div>
+                <div>采取IP访问限制、防盗链、HTTPS协议等多种方式进行安全加固，保护数据安全。将静态资源和主站放置在同一台服务器上，可以更方便地进行管理和部署，大大降低了运维成本。</div>
+
+
+                <p id="2"><br></p>
+
+                <h5>在香港VPS托管静态资源的好处</h5>
+                <div><br></div>
+                <b>提升网站加载速度</b>由于VPS托管静态资源可以实现CDN加速，从而加速网站的加载速度，提高用户体验。 <br><b>提升视频稳定</b>：由于VPS托管静态资源采用分布式架构，多个节点之间并行处理数据，从而减少了单点故障的风险，同时也提高了系统的稳定性和可靠性。 <br><b>节省成本</b>：采用VPS托管静态资源，可以避免自己购买CDN服务和设备的成本，并且无需担心设备运行和维护的问题。<br><b>提升视频安全性</b>：VPS托管静态资源可以采用多种安全防护措施，如设置防盗链访问控制、防火墙等，确保数据的安全性。<br>
+                <div style="padding-top: 30px;"></div>
+                <div id="1"><br></div>
+                <div><br></div>
+                <h5 id="82">在香港VPS托管静态资源方法</h5>
+                <div><br></div>
+                <div style="white-space: normal;"><b>一、购买香港VPS</b>
+                    <br>首先需要购买一台香港VPS，建议选择配置较高的VPS以提高托管静态资源的效率和稳定性。
+                    <p><br></p>
+                    <p style="margin-top: 0px; margin-bottom: 1em;;">
+                        <strong> LightNode</strong>LightNode是成立于2002年的香服务商，最低月付 $7.71，按时计费，流量单项计费。充 $10就可以开无限台实例，支持自定义镜像。首冲随机赠送 $5~20。
+                        <table class="table table-bordered">
+
+                            <tbody>
+                                <tr>
+                                    <td>CPU</td>
+                                    <td>内存</td>
+                                    <td>硬盘</td>
+                                    <td>带宽/流量</td>
+                                    <td>价格</td>
+                                    <td>购买</td>
+                                </tr>
+                                <tr>
+                                    <td>1核</td>
+                                    <td>2G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/1TB</td>
+                                    <td>$7.71/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>2核</td>
+                                    <td>4G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/2TB</td>
+                                    <td>$14.70/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>4核</td>
+                                    <td>8G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/2TB</td>
+                                    <td>$30.90/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>8核</td>
+                                    <td>16G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/2TB</td>
+                                    <td>$57.69/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>8核</td>
+                                    <td>32G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/2TB</td>
+                                    <td>$81.69/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>16核</td>
+                                    <td>32G</td>
+                                    <td>50G</td>
+                                    <td>100Mbps/2TB</td>
+                                    <td>$105.69/月</td>
+                                    <td><a href="https://www.lightnode.com/?inviteCode=MOGNKA&amp;promoteWay=LINK" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <br>
+                    <p style="margin-top: 0px; margin-bottom: 1em;;">
+                        <strong> DIYVM</strong>是一家基于美国硅谷机房的VPS主机商，成立于2012年，提供多种不同尺寸和配置的VPS计划。该公司的服务特点包括良好的网络速度、完善的技术支持、自定义服务等。
+                        <table class="table table-bordered">
+
+                            <tbody>
+                                <tr>
+                                    <td>架构</td>
+                                    <td>CPU</td>
+                                    <td>内存</td>
+                                    <td>硬盘</td>
+                                    <td>带宽</td>
+                                    <td>IPv4</td>
+                                    <td>价格</td>
+                                    <td>购买</td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>2</td>
+                                    <td>2GB</td>
+                                    <td>50GB</td>
+                                    <td>5Mbps</td>
+                                    <td>1个</td>
+                                    <td>50元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>4</td>
+                                    <td>4GB</td>
+                                    <td>60GB</td>
+                                    <td>5Mbps</td>
+                                    <td>1个</td>
+                                    <td>100元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>4</td>
+                                    <td>8GB</td>
+                                    <td>70GB</td>
+                                    <td>10Mbps</td>
+                                    <td>4个</td>
+                                    <td>200元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>8</td>
+                                    <td>16GB</td>
+                                    <td>80GB</td>
+                                    <td>10Mbps</td>
+                                    <td>6个</td>
+                                    <td>400元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>8</td>
+                                    <td>32GB</td>
+                                    <td>100GB</td>
+                                    <td>15Mbps</td>
+                                    <td>6个</td>
+                                    <td>800元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>KVM架构</td>
+                                    <td>16</td>
+                                    <td>64GB</td>
+                                    <td>500GB</td>
+                                    <td>15Mbps</td>
+                                    <td>6个</td>
+                                    <td>1600元/月</td>
+                                    <td><a href="https://www.diyvm.com/page.aspx?c=referral&amp;u=86008" target="_blank" rel="noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <br>
+                    <p style="margin-top: 0px; margin-bottom: 1em;;">
+                        <strong>RAKsmart</strong>是一个提供VPS主机、域名注册等服务的虚拟主机供应商。它成立于2012年，总部位于美国，现在已经拥有200多个节点，并且覆盖了全球60多个国家和地区。
+                        <table class="table table-bordered">
+                            <tbody>
+                                <tr>
+                                    <td>产品名称</td>
+                                    <td>CPU</td>
+                                    <td>内存</td>
+                                    <td>硬盘</td>
+                                    <td>宽带</td>
+
+                                    <td>折扣价</td>
+                                    <td></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>1</td>
+                                    <td>1</td>
+                                    <td>25G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$5.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=138" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024+</td>
+                                    <td>2</td>
+                                    <td>1</td>
+                                    <td>30G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$8.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=139" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>2</td>
+                                    <td>1.5</td>
+                                    <td>35G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$10.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=140" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>2</td>
+                                    <td>2</td>
+                                    <td>40G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$13.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=141" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>4</td>
+                                    <td>4</td>
+                                    <td>80G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$25.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=142" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>4</td>
+                                    <td>6</td>
+                                    <td>100G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$35.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=696" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                                <tr>
+                                    <td>HK V1024</td>
+                                    <td>6</td>
+                                    <td>8</td>
+                                    <td>160G</td>
+                                    <td>共享100M/峰值5M</td>
+
+                                    <td>$40.00 USD</td>
+                                    <td><a href="https://billing.raksmart.com/whmcs/aff.php?aff=3737&amp;pid=697" target="_blank" rel="nofollow noopener" style="transition: all 0.5s ease 0s;">详情</a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </p>
+                    <p><br></p><b>二、安装Web环境Nginx/Apache</b>
+                    <br>安装Web服务器软件，如Nginx、Apache等，用于提供Web服务。(推荐使用宝塔)
+                    <p><br></p>
+                    <p><img src="static/shluqu/picture/1652925364415751.png" alt="11.png"></p>
+                    <p><br></p><b>三、配置静态资源</b>
+                    <br>将需要托管的静态资源放置到Web服务器指定的目录下，如Nginx的根目录是"/usr/share/nginx/html"。
+                    <p><br></p>
+                    <p><img src="static/shluqu/picture/19095959_6285a49f61c8216423.png" alt="image.png"></p>
+                    <p id="92"><br></p><b>四、配置CDN加速</b>
+                    <br>可以选择安装CDN加速服务，如CloudFlare、阿里云CDN等，将静态资源在CDN节点上缓存，从而加速资源的访问速度。
+                    <p><br></p>
+                    <p><img src="static/shluqu/picture/www-cloudflare-com.png" alt="image.png"></p>
+
+                    <p id="33"><br></p><b>五、配置SSL证书</b>
+                    <br>为了保障静态资源传输的安全性，需要配置SSL证书，如Let's Encrypt等。
+                    <p><br></p>
+                    <p><img src="static/shluqu/picture/ssl-ov.jpg" alt="image.png"></p>
+                    <p id="3"><br></p><b>六、设置访问权限</b>
+                    <br>设置合适的访问权限，如限制IP或者设置访问密码，以保障数据的安全性。
+                    <p><br></p>
+                    <p><img src="static/shluqu/picture/QQ20210609-110654.png" alt="image.png"></p>
+                    <br> 以上是在香港VPS上托管静态资源的方法，需要根据实际情况进行具体配置和优化以提高资源的稳定性和访问速度。
+                    <p id="4"><br></p>
+                    <h5>香港VPS上托管静态资源适用于以下业务</h5>
+                    <p><br></p> <b>静态网站：</b>如果您的网站主要是展示信息，如博客、简历等，那么使用香港VPS托管静态资源是非常适合的，可以提高网站的访问速度和稳定性。
+                    <p><br></p><b>图片、视频等媒体资源：</b>如果您需要大量存储和传输图片、视频等媒体资源，使用香港VPS托管静态资源可以提高资源访问速度，并且可以更好地控制资源的访问权限。
+                    <p><br></p><b>CDN加速：</b>如果您需要使用CDN加速服务来提高全球范围内用户的访问速度，那么使用香港VPS托管静态资源可以方便地进行CDN的配置和管理。
+                    <p><br></p>总的来说，在需要存储和传输静态资源的业务中，使用香港VPS托管静态资源可以提高访问速度和稳定性，同时可以更好地控制资源的访问权限，适用于大部分的Web应用。
+                    <p id="5"><br></p>
+
+                    <h5>设置blob视频链接加载</h5>
+                    <p><br></p>
+                    <div class="blog-content token" style="height: auto !important;">
+                        <p>Blob（Binary Large Object）是一种二进制数据类型，可以用于存储各种类型的数据，如视频、音频、图片等等。在Web应用中，我们可以将二进制数据以Blob的形式加载到前端页面中，从而实现视频链接的加载和播放。 以下是加载视频链接的示例代码：</p>
+                        <pre><code><br>
+                     // 获取视频链接
+                    let videoUrl = 'https://example.com/video.mp4';
+                        
+                    // 发送请求获取二进制数据
+                    fetch(videoUrl)
+                      .then(response => response.blob())
+                      .then(blob => {
+                        // 创建video标签
+                        let video = document.getElementById('my-video');
+                        
+                        // 将Blob URL赋值给video标签
+                        video.src = URL.createObjectURL(blob);
+                        
+                        // 释放资源
+                        video.addEventListener('ended', () => {
+                          URL.revokeObjectURL(video.src);
+                        });
+                      });
+                       </code></pre>
+                        <pre><code>
+       &lt;video id="my-video" width="640" height="360" controls&gt;&lt;/video&gt;
+                               </code>
+                            </pre>
+                        <script type="text/javascript">
+                            var preElements = document.getElementsByTagName("pre");
+
+                            for (var i = 0; i < preElements.length; i++) {
+                                var content = preElements[i].innerHTML;
+                                content = content.replace(/(.+\.mp4|.+\.conf)/g, '<span style="color: #FF75B5!important;">$1</span>');
+                                content = content.replace(/(cd |make |vim |sudo |wget |tar )/g, '<span style="color: #ffb86c!important;">$1</span>');
+                                content = content.replace(/(.*\/\/.*)/g, '<span style="color:#19F9D8!important;">$1</span>');
+                                content = content.replace(/(&lt;.*&gt;)/g, '<span style="color:#ffc107!important">$1</span>');
+
+                                preElements[i].innerHTML = content;
+                            }
+                        </script>
+                        上述示例中，我们首先在HTML中创建一个video标签，使用JavaScript获取视频链接并将其转化为Blob对象，然后使用URL.createObjectURL方法将Blob对象转化为Blob URL，最后将Blob URL赋值给video标签的src属性，从而实现了视频链接的加载和播放。
+                        <p><br></p>需要注意的是，在使用完Blob URL后需要手动调用URL.revokeObjectURL()方法来释放资源，避免内存泄漏。在本例中，我们通过添加video的ended事件监听器，在视频播放结束后自动释放资源。
+                    </div>
+
+
+                </div>
+                <p id="6"><br></p>
+                <h5>在香港VPS上托管静态资源是最好的选择吗？</h5>
+                <p><br></p>托管静态资源可以选择多种方式，香港VPS上托管静态资源也是一种选择，并且具有一些优点，但也需要考虑具体情况。
+                <p><br></p>首先，香港VPS相对于其他地区的VPS，可能具有更优秀的网络性能，特别是在亚太地区的访问情况下，因为香港是一个国际化城市，拥有非常发达的互联网基础设施和网络传输能力。因此，选择香港VPS托管静态资源可以提高网站的访问速度和稳定性。 另外，托管静态资源可以减轻Web服务器的负担和流量压力，从而提高整个网站的性能。使用VPS托管静态资源可以更好地控制资源的使用，提高网站的安全性和稳定性。
+                <p><br></p>但是，如果静态资源需要访问全球各地的用户，那么选择香港VPS可能不是最佳选择。因为香港VPS主要面向亚太地区，对于其他地区的用户可能存在访问延迟和带宽限制。在这种情况下，可以选择使用全球CDN等其他方式进行托管，以提高全球用户的访问速度和稳定性。
+
+
+                <div><br></div>
+                <h5>总结</h5>
+                <div><br></div>
+                <div>总之，选择托管静态资源的方式需要根据具体情况进行选择。如果以亚太地区的用户为主要访问对象，并且资源文件相对较小，可以考虑选择香港VPS进行托管。如果需要访问全球用户或者资源文件较大，可以考虑使用CDN等其他方式进行托管。
+                    <br></div>
+            </div>
+        </div>
+    </section>
+    <!--============= Category Section Ends Here =============-->
+
+
+
+    <!--============= Have Questions Section Starts Here =============-->
+    <div class="have-questions-section mb--70--145">
+        <div class="container">
+            <div class="have-question-wrapper">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="have-question-content">
+
+                            <h2 class="title">为什么在香港VPS上托管静态资源？</h2>
+                            <p>选择托管静态资源的方式需要根据具体情况进行选择。如果以亚太地区的用户为主要访问对象，并且资源文件相对较小，可以考虑选择香港VPS进行托管。</p>
+                            <div class="col-lg-12 col-md-6">
+                                <span class="popular-item">
+                                   
+                                    <div class="popular-content">
+                                        <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">图片托管</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">图片存储</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">静态资源托管</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">静态资源存储</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">视频存储</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">视频托管</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">blob视频链接</a> <a href="https://shluqu.github.io/hongkong-server-video-site.html" class="info">blob图片链接</a></div>
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--============= Have Questions Section Ends Here =============-->
+    <div class="dianshi-global" id="" name="">
+        <div class="tpm1-anchor-widget--simple is-fixed is-def-hidden is-center" style="top: 0px;">
+
+            <div class="tpm1-anchor-widget--simple__inner">
+                <div class="tpm1-anchor-widget--simple__hd">IPLC专线
+                </div>
+                <div class="tpm1-anchor-widget--simple__bd">
+                    <ul class="tpm1-anchor-widget--simple__list">
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('2')" class="tpm1-anchor-widget--simple__item-link">托管静态资源好处</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('1')" class="tpm1-anchor-widget--simple__item-link">托管静态资源方法</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('82')" class="tpm1-anchor-widget--simple__item-link">购买香港VPS</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('92')" class="tpm1-anchor-widget--simple__item-link">配置CDN加速</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('33')" class="tpm1-anchor-widget--simple__item-link">配置SSL证书</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('3')" class="tpm1-anchor-widget--simple__item-link">设置访问权限</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('4')" class="tpm1-anchor-widget--simple__item-link">适用哪些业务</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('5')" class="tpm1-anchor-widget--simple__item-link">设置blob视频链接</a></li>
+                        <li class="tpm1-anchor-widget--simple__item"><a href="javascript:;" onclick="goDiv('6')" class="tpm1-anchor-widget--simple__item-link">方案总结</a></li>
+
+                    </ul>
+                </div>
+                <div class="tpm1-anchor-widget--simple__btn"></div>
+            </div>
+        </div>
+    </div>
+    <!--============= Footer Section Starts Here =============-->
+    <footer class="footer-section pt-70-145">
+        <a href="#0" class="scrollToTop active"><i class="fas fa-angle-up"></i></a>
+        <div class="container">
+            <div class="footer-top cl-white padding-bottom padding-top">
+                <div class="row mb--50 justify-content-between">
+                    <div class="col-sm-12 col-lg-4">
+                        <div class="footer-widget widget-about">
+                            <div class="logo-area">
+                                <div class="logo">
+                                    <a href="javascript:;"><img src="static/shluqu/picture/f75336c2714d6ea.png" title="香港vps推荐" alt="香港vps推荐"></a>
+                                </div>
+                            </div>
+                            <p style="margin-top: 0px; margin-bottom: 1em;">香港vps推荐博客专注国外VPS、国外服务器、国外虚拟主机推荐，我们从用户使用体验出发，对国外VPS主机价格、速度、可靠性、客服等多个方面进行测评，为你推荐优秀的国外VPS/服务器/虚拟主机。</p>
+                            <ul class="social-icons">
+                                <li>
+                                    商务合作：
+                                </li>
+
+                                <li>
+                                    Telegram：@brannb
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-md-4 col-lg-3 offset-lg-1">
+                        <div class="footer-widget widget-link">
+                            <h5 class="title">用途分类</h5>
+                            <ul>
+                                <li><a href="https://shluqu.github.io/server.html">香港云服务器</a></li>
+                                <li><a href="https://shluqu.github.io/Physical-server.html">香港物理服务器</a></li>
+                                <li><a href="https://shluqu.github.io/large-bandwidth.html">香港大带宽服务器</a></li>
+                                <li><a href="https://shluqu.github.io/us/index.htmll">美国vps</a></li>
+                                <li><a href="https://shluqu.github.io/jp/index.html">日本vps</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-8 col-lg-4">
+                        <div class="footer-widget widget-link">
+                            <h5 class="title">地区分类</h5>
+                            <ul>
+                                <li><a href="https://shluqu.github.io/china-cloud-server.html">国内云服务器</a></li>
+                                <li><a href="#">国外云服务器</a></li>
+                                <li><a href="https://shluqu.github.io/server.html">香港云服务器</a></li>
+                                <li><a href="#">美国云服务器</a></li>
+                                <li><a href="/hongkong-server-single.html">专题页面</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom cl-white">
+                <p>Copyright &copy; 2020 <a href="https://shluqu.github.io/">香港vps推荐</a> - Designed by 香港vps推荐</p>
+            </div>
+        </div>
+    </footer>
+    <!--============= Footer Section Ends Here =============-->
+
+    <script>
+        var div_child = '<div class="support"> <ul class="menu" style="margin-right: -8px;"> <li> <a href="#0" style="padding: 7px 5px;font-size: 15px;"><img src="static/shluqu/newimg/hk.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">香港机房</a> <ul class="submenu" style="min-width: 130px;"> <li> <a href="jp/index.html" style="font-size: 13px;"><img src="static/shluqu/newimg/jp.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">日本机房</a> </li> <li> <a href="us/index.html" style="font-size: 13px;"><img src="static/shluqu/newimg/us.svg" style="margin-right: 7px;width: 30px;" class="img-fluid">美国机房</a> </li> </ul> </li> </ul> </div>'
+        var c = document.getElementById('div_1');
+        c.innerHTML += div_child;
+    </script>
+    <script src="static/shluqu/js/jquery-3.3.1.min.js"></script>
+    <script src="static/shluqu/js/modernizr-3.6.0.min.js"></script>
+    <script src="static/shluqu/js/plugins.js"></script>
+    <script src="static/shluqu/js/bootstrap.min.js"></script>
+    <script src="static/shluqu/js/wow.min.js"></script>
+    <script src="static/shluqu/js/waypoints.js"></script>
+    <script src="static/shluqu/js/nice-select.js"></script>
+    <script src="static/shluqu/js/owl.min.js"></script>
+    <script src="static/shluqu/js/magnific-popup.min.js"></script>
+    <script src="static/shluqu/js/main.js"></script>
+</body>
+
+</html>
