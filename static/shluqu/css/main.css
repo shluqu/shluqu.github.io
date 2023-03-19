@@ -3925,7 +3925,7 @@ footer {
 
 @media (min-width: 576px) {
     .quote-item {
-        padding: 40px 30px;
+        padding: 20px 30px;
         margin-bottom: 60px;
     }
 }
