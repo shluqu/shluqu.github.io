@@ -2417,7 +2417,7 @@ footer {
 }
 
 .breadcrumm li a::after {
-    content: "Ã¥Ë†â€¡Ã¦ÂÂ¢Ã§Â®â‚¬Ã¤Â½â€œ";
+    content: "ÃƒÂ¥Ã‹â€ Ã¢â‚¬Â¡ÃƒÂ¦Ã‚ÂÃ‚Â¢ÃƒÂ§Ã‚Â®Ã¢â€šÂ¬ÃƒÂ¤Ã‚Â½Ã¢â‚¬Å“";
     font-weight: 600;
     font-family: "Flaticon";
     font-size: 14px;
@@ -5920,8 +5920,8 @@ pre code::-webkit-scrollbar-thumb {
 
 .payIcons {
     background: url(../images/paypal-1.png) no-repeat;
-    width: 99px;
-    line-height: 50px;
+    width: 170px;
+    line-height: 60px;
     display: inline-block
 }
 
@@ -5930,11 +5930,11 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-HostGator {
-    background-position: -104px -56px
+    background-position: -3px -73px;
 }
 
 .payIcons-hostens {
-    background-position: -299px -172px;
+    background-position: -3px -137px;
 }
 
 .payIcons-ChemiCloud {
@@ -5946,7 +5946,7 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-Hostinger {
-    background-position: -396px -165px
+    background-position: -3px -493px;
 }
 
 .payIcons-Serversp {
@@ -5954,11 +5954,11 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-SiteGround {
-    background-position: -493px -117px;
+    background-position: -3px -206px;
 }
 
 .payIcons-InterServer {
-    background-position: -203px -56px
+    background-position: -3px -612px;
 }
 
 .payIcons-HawkHost {
@@ -5970,11 +5970,11 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-A2Hosting {
-    background-position: -6px -112px
+    background-position: -3px -10px;
 }
 
 .payIcons-SugarHosts {
-    background-position: -6px -9px;
+    background-position: -3px -425px;
 }
 
 .payIcons-GoDaddy {
@@ -5982,7 +5982,7 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-GreenGeeks {
-    background-position: -203px -276px;
+    background-position: -3px -360px;
 }
 
 .payIcons-JustHost {
@@ -6010,7 +6010,7 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-Namecheap {
-    background-position: -395px -10px;
+    background-position: -3px -554px;
 }
 
 .payIcons-DigitalOcean {
@@ -6070,7 +6070,7 @@ pre code::-webkit-scrollbar-thumb {
 }
 
 .payIcons-AccuWeb {
-    background-position: -102px -438px;
+    background-position: -3px -284px;
 }
 
 .payIcons-InMotion {
