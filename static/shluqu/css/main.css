@@ -1,12 +1,12 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap");
 
 /*
-	Theme Name: shluqu
-	Theme URI: about.shluqu.cn
-	Description:Ã¨Â±â€ Ã¤Â¸ÂÃ§Â§â€˜Ã¦Å â‚¬Ã¥Â¸Â®Ã¥Å Â©Ã¤Â¼ÂÃ¤Â¸Å¡Ã¥Â®Å¡Ã¥Ë†Â¶Ã¤Â¸Å Ã¤Âºâ€˜Ã¦â€“Â¹Ã¦Â¡Ë†Ã¯Â¼Å’Ã¤Âºâ€˜Ã¨Â®Â¡Ã§Â®â€”Ã¦â€Â¹Ã¥ÂËœÃ¤Âºâ€ Ã¥Â­Â¤Ã§Â«â€¹Ã§Å¡â€žÃ¥Â¸â€šÃ¥Å“ÂºÃ¤Â¿Â¡Ã¦ÂÂ¯Ã¯Â¼Å’Ã¥ÂÂ¯Ã¥Ë†Â©Ã§â€Â¨Ã¥Â¤Â§Ã¦â€¢Â°Ã¦ÂÂ®Ã¨Â®Â¡Ã§Â®â€”Ã¦Å’â€“Ã¦Å½ËœÃ¤Â¿Â¡Ã¦ÂÂ¯Ã¤Â¸Â­Ã§Å¡â€žÃ¥â€¢â€ Ã¦Å“ÂºÃ¯Â¼Å’Ã¥Â¸Â®Ã¥Å Â©Ã¤Â¼ÂÃ¤Â¸Å¡Ã¦â€ºÂ´Ã¦â€”Â©Ã¥Å“Â°Ã¦â€°ËœÃ§Â®Â¡Ã§Â½â€˜Ã§Â«â„¢Ã¯Â¼Å’Ã¥Â®Å¡Ã¥Ë†Â¶Ã¤Â¼ÂÃ¤Â¸Å¡Ã§Â½â€˜Ã§Â«â„¢Ã¯Â¼Å’Ã¥Â»ÂºÃ§Â«â€¹Ã¤Â¼ÂÃ¤Â¸Å¡Ã¤Âºâ€™Ã¨Ââ€Ã§Â½â€˜Ã¨ÂÂ¥Ã©â€â‚¬Ã¦â€“Â¹Ã¦Â¡Ë†Ã£â‚¬â€š
+	Theme Name: shluqu.github.io
+	Theme URI: shluqu.github.io
+	Description:These blogs and softcovers provide an introduction to VPS, its features, benefits and advice on how to choose a VPS hosting provider. If you are considering using a VPS to host your website or application, these resources can help you better understand how a VPS works and how to maximise its benefits.
 	Version: 5.6.2
-	Author: Ã¨Â±â€ Ã¤Â¸ÂÃ§Â§â€˜Ã¦Å â‚¬
-	Author: about.shluqu.cn
+	Author: shluqu.github.io
+	Author: shluqu.github.io
 
 */
 
@@ -75,12 +75,6 @@
 */
 
 
-/*! HTML5 Boilerplate v7.0.1 | MIT License | https://html5boilerplate.com/ */
-
-
-/* main.css 1.0.0 | MIT License | https://github.com/h5bp/main.css#readme */
-
-
 /*
  * What follows is the result of much research on cross-browser styling.
  * Credit left inline and big thanks to Nicolas Gallagher, Jonathan Neal,
@@ -100,13 +94,7 @@ html {
 
 
 /*
- * Remove text-shadow in selection highlight:
- * https://twitter.com/miketaylr/status/12228805301
- *
- * Vendor-prefixed and regular ::selection selectors cannot be combined:
- * https://stackoverflow.com/a/16982510/7133471
- *
- * Customize the background color to match your design.
+
  */
 
 ::selection {
@@ -2429,7 +2417,7 @@ footer {
 }
 
 .breadcrumm li a::after {
-    content: "åˆ‡æ¢ç®€ä½“";
+    content: "Ã¥Ë†â€¡Ã¦ÂÂ¢Ã§Â®â‚¬Ã¤Â½â€œ";
     font-weight: 600;
     font-family: "Flaticon";
     font-size: 14px;
@@ -5928,4 +5916,251 @@ pre code::-webkit-scrollbar-thumb {
     -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .5) !important;
     background-color: #21252b !important;
     box-shadow: 0 0 6px rgba(0, 0, 0, .3);
+}
+
+.payIcons {
+    background: url(../images/paypal-1.png) no-repeat;
+    width: 99px;
+    line-height: 50px;
+    display: inline-block
+}
+
+.payIcons-Bluehost {
+    background-position: -6px -380px
+}
+
+.payIcons-HostGator {
+    background-position: -104px -56px
+}
+
+.payIcons-hostens {
+    background-position: -299px -172px;
+}
+
+.payIcons-ChemiCloud {
+    background-position: -104px -380px
+}
+
+.payIcons-hostarmada {
+    background-position: -494px -273px
+}
+
+.payIcons-Hostinger {
+    background-position: -396px -165px
+}
+
+.payIcons-Serversp {
+    background-position: -396px -112px
+}
+
+.payIcons-SiteGround {
+    background-position: -493px -117px;
+}
+
+.payIcons-InterServer {
+    background-position: -203px -56px
+}
+
+.payIcons-HawkHost {
+    background-position: -300px -273px
+}
+
+.payIcons-FastComet {
+    background-position: -397px -380px
+}
+
+.payIcons-A2Hosting {
+    background-position: -6px -112px
+}
+
+.payIcons-SugarHosts {
+    background-position: -6px -9px;
+}
+
+.payIcons-GoDaddy {
+    background-position: -299px -380px
+}
+
+.payIcons-GreenGeeks {
+    background-position: -203px -276px;
+}
+
+.payIcons-JustHost {
+    background-position: -203px -380px
+}
+
+.payIcons-Linode {
+    background-position: -299px -57px
+}
+
+.payIcons-Hostkvm {
+    background-position: -493px 0
+}
+
+.payIcons-aliyun {
+    background-position: -300px 0
+}
+
+.payIcons-Kamatera {
+    background-position: -102px -110px
+}
+
+.payIcons-tengxunyun {
+    background-position: 0 -165px
+}
+
+.payIcons-Namecheap {
+    background-position: -395px -10px;
+}
+
+.payIcons-DigitalOcean {
+    background-position: -201px -165px
+}
+
+.payIcons-Google {
+    background-position: -104px -165px
+}
+
+.payIcons-vpsserver {
+    background-position: -202px 0
+}
+
+.payIcons-Vultr {
+    background-position: -395px -58px
+}
+
+.payIcons-Hostwinds {
+    background-position: -300px -110px
+}
+
+.payIcons-LayerStack {
+    background-position: -102px 0
+}
+
+.payIcons-cloudways {
+    background-position: -1px -56px
+}
+
+.payIcons-G-Core {
+    background-position: -493px -219px
+}
+
+.payIcons-cloudcone {
+    background-position: -202px -219px
+}
+
+.payIcons-DreamHost {
+    background-position: -299px -219px
+}
+
+.payIcons-Mewnix {
+    background-position: -200px -110px
+}
+
+.payIcons-GigsGigsCloud {
+    background-position: -2px -273px
+}
+
+.payIcons-yecao {
+    background-position: -298px -432px
+}
+
+.payIcons-dogyun {
+    background-position: -4px -432px
+}
+
+.payIcons-AccuWeb {
+    background-position: -102px -438px;
+}
+
+.payIcons-InMotion {
+    background-position: -201px -432px
+}
+
+.payIcons-Contabo {
+    background-position: -494px -58px
+}
+
+.payIcons-Hostever {
+    background-position: -493px -380px
+}
+
+.payIcons-vietnix {
+    background-position: -397px -433px
+}
+
+.payIcons-kuaiyun {
+    background-position: -494px -433px
+}
+
+.payIcons-UltraVPS {
+    background-position: -4px -486px
+}
+
+.payIcons-iozoom {
+    background-position: -102px -486px
+}
+
+.payIcons-dataplugs {
+    background-position: -202px -486px
+}
+
+.payIcons-zunyun {
+    background-position: -298px -487px
+}
+
+.payIcons-qunying {
+    background-position: -395px -487px
+}
+
+.payIcons-QingCloud {
+    background-position: -495px -487px
+}
+
+.payIcons-Microsoft {
+    background-position: -4px -540px
+}
+
+.payIcons-xima {
+    background-position: -103px -540px
+}
+
+.payIcons-VPSNET {
+    background-position: -202px -540px
+}
+
+.payIcons-racknerd {
+    background-position: -395px -594px
+}
+
+.payIcons-zjinet {
+    background-position: -298px -594px
+}
+
+.payIcons-baidu {
+    background-position: -202px -594px
+}
+
+.payIcons-huawei {
+    background-position: -103px -594px
+}
+
+.payIcons-qiyi {
+    background-position: -4px -594px
+}
+
+.payIcons-UCloud {
+    background-position: -494px -540px
+}
+
+.payIcons-amEC2 {
+    background-position: -396px -540px
+}
+
+.payIcons-hengchuang {
+    background-position: -298px -540px
+}
+
+.payIcons-HOTIIS {
+    background-position: -495px -595px
 }
