@@ -1324,6 +1324,13 @@ input[type="submit"] {
     opacity: 0;
 }
 
+blockquote {
+    border-left: 2px solid #eaeaea;
+    padding: 10px 0 10px 40px;
+    margin: 40px 0;
+    transition: all .3s ease-in-out;
+}
+
 .overlay.active {
     opacity: 1;
     visibility: visible;
