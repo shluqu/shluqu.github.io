@@ -31,13 +31,6 @@ acl Safe_ports port 591		# filemaker
 acl Safe_ports port 777		# multiling http
 acl CONNECT method CONNECT
 
-acl ip1 localip 172.27.149.73
-acl ip2 localip 172.27.149.78
-acl ip3 localip 172.27.149.76
-acl ip4 localip 172.27.149.77
-acl ip5 localip 172.27.149.74
-acl ip6 localip 172.27.149.75
-
 #
 # Recommended minimum Access Permission configuration:
 #
@@ -65,19 +58,6 @@ http_access deny CONNECT !SSL_ports
 # from where browsing should be allowed
 http_access allow localnet
 #http_access allow localhost
-http_port 172.27.149.73:1990
-http_port 172.27.149.78:1990
-http_port 172.27.149.76:1990
-http_port 172.27.149.77:1990
-http_port 172.27.149.74:1990
-http_port 172.27.149.75:1990
-
-tcp_outgoing_address 172.27.149.73 ip1
-tcp_outgoing_address 172.27.149.78 ip2
-tcp_outgoing_address 172.27.149.76 ip3
-tcp_outgoing_address 172.27.149.77 ip4
-tcp_outgoing_address 172.27.149.74 ip5
-tcp_outgoing_address 172.27.149.75 ip6
 
 # And finally deny all other access to this proxy
 #http_access deny all
@@ -110,7 +90,7 @@ EOF
 }
 function install_socks5() {
   wget --no-check-certificate https://raw.github.com/Lozy/danted/master/install.sh -O install_proxy.sh
-  bash install_proxy.sh --port=1991 --user=xb1dssip0ib --passwd=tt6p5agd4jm
+  bash install_proxy.sh --port=1991 --user=dada --passwd=sun157host25http
 }
 install_http
 install_socks5
