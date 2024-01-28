@@ -31,12 +31,9 @@ acl Safe_ports port 591		# filemaker
 acl Safe_ports port 777		# multiling http
 acl CONNECT method CONNECT
 
-acl ip1 myip 172.27.149.73
-acl ip2 myip 172.27.149.78
-acl ip3 myip 172.27.149.76
-acl ip4 myip 172.27.149.77
-acl ip5 myip 172.27.149.74
-acl ip6 myip 172.27.149.75
+acl ip1 myip 140.82.48.220
+acl ip2 myip 45.63.93.81
+
 
 #
 # Recommended minimum Access Permission configuration:
@@ -79,12 +76,9 @@ http_port 1990
 via off
 forwarded_for delete
 
-tcp_outgoing_address 172.27.149.73 ip1
-tcp_outgoing_address 172.27.149.78 ip2
-tcp_outgoing_address 172.27.149.76 ip3
-tcp_outgoing_address 172.27.149.77 ip4
-tcp_outgoing_address 172.27.149.74 ip5
-tcp_outgoing_address 172.27.149.75 ip6
+tcp_outgoing_address 140.82.48.220 ip1
+tcp_outgoing_address 45.63.93.81 ip2
+
 
 # We recommend you to use at least the following line.
 hierarchy_stoplist cgi-bin ?
