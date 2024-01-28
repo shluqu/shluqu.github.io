@@ -31,8 +31,8 @@ acl Safe_ports port 591		# filemaker
 acl Safe_ports port 777		# multiling http
 acl CONNECT method CONNECT
 
-acl ip1 myip 140.82.48.220
-acl ip2 myip 45.63.93.81
+acl ip1 myip 127.0.0.1
+acl ip2 myip 127.0.0.1
 
 
 #
@@ -76,8 +76,8 @@ http_port 1990
 via off
 forwarded_for delete
 
-tcp_outgoing_address 140.82.48.220 ip1
-tcp_outgoing_address 45.63.93.81 ip2
+tcp_outgoing_address 127.0.0.1 ip1
+tcp_outgoing_address 127.0.0.1 ip2
 
 
 # We recommend you to use at least the following line.
