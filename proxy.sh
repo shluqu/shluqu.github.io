@@ -2,8 +2,8 @@
 #!/bin/bash
 
 # ====== 配置用户名和密码 ======
-PROXY_USER="youruser"
-PROXY_PASS="yourpass"
+PROXY_USER="uu56qrfk"
+PROXY_PASS="dm9434zx"
 
 # ====== 安装 Squid（HTTP代理） ======
 function install_http() {
