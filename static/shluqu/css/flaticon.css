@@ -58,3 +58,44 @@
 .flaticon-check:before {
     content: "\f106";
 }
+
+  :root{
+    --ad-w: 160px;
+    --ad-h: 600px;
+    --ad-bg: #fff;
+    --ad-border: 1px solid rgba(0,0,0,.12);
+    --ad-radius: 14px;
+    --ad-shadow: 0 10px 25px rgba(0,0,0,.12);
+  }
+  @media (prefers-color-scheme: dark){
+    :root{
+      --ad-bg: #1f1f1f;
+      --ad-border: 1px solid rgba(255,255,255,.12);
+      --ad-shadow: 0 10px 25px rgba(0,0,0,.4);
+    }
+  }
+
+  /* 基础广告容器（骨架） */
+  .g-ad{
+    background: var(--ad-bg);
+    border: var(--ad-border);
+    border-radius: var(--ad-radius);
+    box-shadow: var(--ad-shadow);
+    overflow: hidden;
+  }
+
+  /* 右侧固定的 160×600 天幕位 */
+  .g-ad--right-160x600{
+    position: fixed;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: var(--ad-w);
+    height: var(--ad-h);
+    z-index: 9999;
+  }
+
+  /* 移动端避免遮挡：小屏隐藏（需要的话可改为移动到底部） */
+  @media (max-width: 1024px){
+    .g-ad--right-160x600{ display: none; }
+  }
