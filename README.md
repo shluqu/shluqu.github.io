@@ -34,7 +34,7 @@
 
 ---
 
-## 二、推荐商家总览（不逐个长篇介绍）
+## 二、推荐商家总览
 
 > 下表为你在页面中出现的香港/周边 VPS 服务商做了一个「总览版」整理，  
 > 方便快速对比与筛选。具体价格以官网实时为准。
@@ -42,124 +42,62 @@
 
 ### 1. 香港及周边 VPS / 云服务器服务商列表
 
-| 序号 | 商家名称              | 主要节点 / 机房（含香港）                          | 支付方式示例                             | 价格区间（参考）              | 详情链接 |
-| ---- | --------------------- | ----------------------------------------------- | ---------------------------------------- | ----------------------------- | -------- |
-| 01   | 搬瓦工 BandwagonHost  | 香港、美国、洛杉矶 CN2 GIA 等                    | 支付宝 / 银联 / PayPal / Visa            | \$49.99/年 起（美国 CN2）     | [前往](https://bandwagonhost.com/aff.php?aff=68113&pid=44) |
-| 02   | DogYun 狗云           | 香港、澳大利亚、韩国、日本、俄罗斯、美国         | 支付宝 / 微信 / 银联                     | 约 10～50 元 / 月             | [前往](https://www.dogyun.com/?ref=jv98open) |
-| 03   | 萤光云 YGCloud        | 香港、中国、东南亚、中东、欧美多节点             | 支付宝 / 微信                            | \$6.77 / 月 起                | [前往](https://console.ygcloud.com/quick.html?ref=s37pp3yy&promoteWay=LINK) |
-| 04   | 野草云                | 香港、美国                                      | 支付宝 / 银联 / Stripe / PayPal          | 约 38 元 / 月 起              | [前往](https://my.yecaoyun.com/aff.php?aff=1601) |
-| 05   | 恒创科技 HengHost     | 香港、日本、韩国、美国                           | 支付宝 / 银联 / PayPal                   | 年付约 296 元起               | [前往](http://my.henghost.com/aff.php?aff=7209) |
-| 06   | HostYun               | 香港、日本、美国、韩国等                         | 支付宝 / 银联                            | 20～100 元 / 月               | [前往](https://my.hostyun.com/page.aspx?c=referral&u=26481) |
-| 07   | LightNode             | 香港、韩国、泰国、越南、新加坡、中东、欧美等     | 支付宝 / 信用卡 / PayPal / 银联等        | \$7.71 / 月 起                | [前往](https://www.lightnode.com/?inviteCode=MOGNKA&promoteWay=LINK) |
-| 08   | RAKsmart              | 香港、美国、韩国、日本                           | 加密货币 / 支付宝                         | \$5 / 月 起（香港入门）       | [前往](https://billing.raksmart.com/whmcs/aff.php?aff=3737&pid=138) |
-| 09   | DMIT                  | 香港、东京、洛杉矶、圣何塞                       | 支付宝 / 信用卡 / PayPal / 银联          | \$6.9 / 月 起                 | [前往](https://www.dmit.io/aff.php?aff=3484) |
-| 10   | DIYVM                 | 香港、美国、日本                                | 支付宝 / 微信                            | 50 元 / 月 起（香港）         | [前往](https://www.diyvm.com/page.aspx?c=referral&u=86008) |
-| 11   | HostKVM               | 香港、日本、新加坡、美国、韩国、俄罗斯等        | 支付宝 / PayPal                          | \$7～15 / 月                  | [前往](https://my.hostkvm.com/aff.php?aff=1175) |
-| 12   | 硅云 VPSOR            | 香港、新加坡、东京、硅谷、法兰克福等             | 支付宝 / 微信 / 银联                      | 年付约 238 元起               | [前往](https://www.vpsor.cn/activity/cloudsite?userCode=ph15c53) |
-| 13   | 欧亚云                | 美国 CN2 GIA / 9929 / 4837 等                    | 支付宝 / 银联                            | 年付约 199 元起               | [前往](https://www.ouyayun.com/aff/REYAKJEM) |
-| 14   | 新天域互联 Simcentric | 香港、台湾                                      | 支付宝 / 银联 / 信用卡 / 加密货币        | 千元/月级别                   | [前往](https://www.simcentric.com/sc/) |
-| 15   | JTTI                  | 香港、美国、新加坡                              | 支付宝 / 银联 / PayPal / USDT            | 港服 \$8.31 / 月起            | [前往](https://www.jtti.cc/zh/offers?k=6PFTD10) |
-| 16   | Hawk Host             | 多国节点（含香港数据中心）                        | 信用卡 / PayPal                          | \$5～\$15 / 月                | [前往](https://www.hawkhost.com/) |
-| 17   | Kamatera               | 全球云（含香港节点）                               | 信用卡 / PayPal                          | 按量计费 / \$4+ / 月         | [前往](https://www.kamatera.com/cloud-vps/hong-kong-vps-hosting/) |
-| 18   | HostUS                 | 香港 VPS 与国际节点                                | PayPal / 信用卡                          | \$6 / 月起                    | [前往](https://www.hostus.us/) |
-| 19   | Dediserve              | 香港/国际大型 KVM VPS                              | 信用卡 / PayPal                          | ~\$10 起                     | [前往](https://www.dediserve.com/) |
-| 20   | KoDDoS                 | 香港数据中心 VPS / 高防                             | 信用卡 / PayPal                          | ~\$20+ / 月                  | [前往](https://koddos.net/) |
-| 21   | UltaHost               | 香港 VPS / 高带宽直连                              | 信用卡 / PayPal                          | \$5～\$15 / 月                | [前往](https://www.ulta.host/) |
-| 22   | HostHongKong / HostHK  | 本地香港 VPS 供应商                                | 信用卡 / PayPal                          | ~\$10 / 月                   | [前往](https://theserverhost.com/) |
-| 23   | Asia.Cloud             | 香港 VPS 专业服务                                  | 信用卡 / PayPal                          | \$20+ / 月                   | [前往](https://asia.cloud/) |
-| 24   | HostZealot             | 香港 VPS 专用节点                                  | 信用卡 / 加密货币                        | ~\$6+ / 月                   | [前往](https://www.hostzealot.com/vps/location-hong-kong) |
-| 25   | 31IDC                  | 香港 VPS / 国际节点                                | 信用卡 / PayPal                          | ~\$10+ / 月                  | [前往](https://www.31idc.com/vps_hk.html) |
-| 26   | HostEase               | 香港 VPS / 企业级托管                              | 信用卡 / PayPal                          | ~\$11.9 / 月                 | [前往](https://www.hostease.com/hkvps.html) |
-| 27   | AsiaVPS (GigsGigsCloud)| 香港 VPS & 云服务器                               | 信用卡 / PayPal                          | ~\$29+ / 月                  | [前往](https://www.gigsgigscloud.com/) |
-| 28   | ZJI / Weixianghost     | 香港独立服务器 & VPS                               | 信用卡 / PayPal                          | 自定义报价                   | [前往](https://www.vps234.com/) |
-| 29   | PureVoltage (香港机房) | 香港数据中心服务（VPS托管）                         | 联系客服                                 | 定制报价                     | [前往](https://purevoltage.com/datacenters/hongkong-data-center/) |
-| 30   | 华为云 Hong Kong       | 香港云服务器 / ECS                                  | 信用卡 / 本地支付                        | ~\$30+ / 月                  | [前往](https://www.huaweicloud.com/theme/970508-5-X) |
-| 31   | 腾讯云 Hong Kong       | 香港云服务器 / 轻量应用服务器                      | 信用卡 / 本地支付                        | ~\$15+ / 月                  | [前往](https://cloud.tencent.com/product/cvm) |
-| 32   | 阿里云 Hong Kong       | 香港 ECS 云服务器                                  | 信用卡 / 支付宝 / 银联                   | ~\$20+ / 月                  | [前往](https://www.alibabacloud.com/) |
-| 33   | UCloud Hong Kong       | 香港云服务器 / VPS                                 | 信用卡 / PayPal                          | ~\$4+ / 月                   | [前往](https://www.ucloud.cn/) |
-| 34   | CITIC Telecom CPC      | 香港企业云 / VPS                                   | 企业支付 / 信用卡                        | 定制报价                     | [前往](https://www.citictel-cpc.com/) |
-| 35   | Star Cloud / EggYun    | 香港 VPS / 多节点云服务                            | 信用卡 / 支付                               | 定制报价                     | [前往](https://www.eggyun.net/) |
-| 36   | Tencent Cloud Lite    | 香港云 VPS / 轻量应用服务器                    | 信用卡 / 本地支付                        | ¥15+ / 月                    | [前往](https://cloud.tencent.com/product/cvm/lite) |
-| 37   | Alibaba Cloud ECS     | 香港 ECS 云服务器                              | 信用卡 / 支付宝 / 银联                   | ¥20+ / 月                    | [前往](https://www.alibabacloud.com/product/ecs) |
-| 38   | GreenCloudVPS         | 香港 VPS / 欧洲节点                              | 信用卡 / PayPal                          | \$8 / 月起                   | [前往](https://greencloudvps.com/) |
-| 39   | Onlive Server         | 香港 VPS / 海外多个节点                          | 信用卡 / PayPal                          | \$6 / 月起                   | [前往](https://onliveserver.net/) |
-| 40   | VPSwala               | 香港 / 亚洲 VPS                                  | 信用卡 / PayPal                          | \$5 / 月起                   | [前往](https://vpswala.org/) |
-| 41   | ServerZone            | 香港 VPS 与海外服务器                            | 信用卡 / PayPal                          | \$10+ / 月                   | [前往](https://serverzone.net/) |
-| 42   | HostMyBytes           | 香港 VPS / 多节点                                | 信用卡 / PayPal                          | \$5+ / 月                    | [前往](https://hostmybytes.com/) |
-| 43   | CheapCloud            | 香港 VPS / 高性价比                              | 信用卡 / PayPal                          | \$5 / 月起                   | [前往](https://cheapcloud.net/) |
-| 44   | AltusHost             | 香港 VPS / 欧洲、北美                            | 信用卡 / PayPal                          | \$10+ / 月                   | [前往](https://www.altushost.com/) |
-| 45   | eUKhost               | 香港节点可选 VPS                                 | 信用卡 / PayPal                          | \$9+ / 月                    | [前往](https://www.eukhost.com/) |
-| 46   | NetCup                | 香港节点 / 德国节点                              | 信用卡 / PayPal                          | €4.99 / 月                   | [前往](https://www.netcup.de/) |
-| 47   | RipeCloud             | 香港 VPS / 亚洲云                                | 信用卡 / PayPal                          | \$8 / 月起                   | [前往](https://ripecloud.net/) |
-| 48   | VPSFusion             | 香港节点 / 亚洲 VPS                              | 信用卡 / PayPal                          | \$6 / 月起                   | [前往](https://www.vpsfusion.com/) |
-| 49   | Cloudzy                | 香港 VPS / 全球节点                              | 信用卡 / PayPal                          | \$7 / 月起                   | [前往](https://cloudzy.com/) |
-| 50   | NodeX                 | 香港 VPS / 全球节点                              | 信用卡 / PayPal                          | \$8 / 月起                   | [前往](https://nodex.com/) |
-| 51   | VPSX                   | 香港 VPS / 多节点                                | 信用卡 / PayPal                          | \$5+ / 月                    | [前往](https://vpsx.com/) |
-| 52   | HostNamaste            | 香港 VPS / 国际云                                | 信用卡 / PayPal                          | \$6 / 月起                   | [前往](https://hostnamaste.com/) |
-| 53   | Exabytes               | 香港 VPS / 亚洲机房                              | 信用卡 / PayPal                          | \$7+ / 月                    | [前往](https://www.exabytes.com/) |
-| 54   | BizVio                | 香港 VPS / 商用主机                              | 信用卡 / PayPal                          | \$8+ / 月                    | [前往](https://bizvio.com/) |
-| 55   | Websolute              | 香港节点 / 全球云                                | 信用卡 / PayPal                          | \$5+ / 月                    | [前往](https://websolute.com/) |
-| 56   | 华为云香港        | 香港云服务器（ECS）                              | 信用卡 / 支付宝 / 本地支付               | ¥30+ / 月                    | [前往](https://www.huaweicloud.com/intl/zh-cn/) |
-| 57   | 腾讯云香港        | 香港云服务器（CVM / 轻量）                        | 信用卡 / 本地支付                        | ¥15+ / 月                    | [前往](https://cloud.tencent.com/) |
-| 58   | 阿里云香港        | ECS 云服务器（含香港）                            | 支付宝 / 信用卡 / 银联                   | ¥20+ / 月                    | [前往](https://www.alibabacloud.com/zh) |
-| 59   | UCloud 云服务器   | 全球节点（含香港）                                 | 信用卡 / PayPal                          | \$4+ / 月                    | [前往](https://www.ucloud.cn/) |
-| 60   | 青云 QingCloud     | 亚洲/香港节点                                     | 支付宝 / 微信                             | ¥30+ / 月                    | [前往](https://www.qingcloud.com/) |
-| 61   | 海外主机易 Server    | 香港节点 / 海外 VPS                               | 信用卡 / PayPal                          | \$6+ / 月                    | [前往](https://onliveserver.net/) |
-| 62   | 绿云 GreenCloudVPS | 香港 VPS / 海外节点                                | 信用卡 / PayPal                          | \$8+ / 月                    | [前往](https://greencloudvps.com/) |
-| 63   | HostUS 主机        | 香港 VPS / 美国                                   | 信用卡 / PayPal                          | \$6 / 月起                   | [前往](https://www.hostus.us/) |
-| 64   | 服务器地带 ServerZone | 香港 VPS / 国际主机                              | 信用卡 / PayPal                          | \$10+ / 月                   | [前往](https://serverzone.net/) |
-| 65   | 易主机 HostMyBytes | 香港 / 多国 VPS                                   | 信用卡 / PayPal                          | \$6+ / 月                    | [前往](https://hostmybytes.com/) |
-| 66   | 台湾主机 Exabytes  | 香港 / 亚洲 VPS                                   | 信用卡 / PayPal                          | \$7+ / 月                    | [前往](https://www.exabytes.com/) |
-| 67   | 全局云 Cloudzy     | 香港节点云服务器                                 | 信用卡 / PayPal                          | \$7 / 月起                   | [前往](https://cloudzy.com/) |
-| 68   | 节点云 NodeX       | 香港 VPS / 国际节点                               | 信用卡 / PayPal                          | \$8+ / 月                    | [前往](https://nodex.com/) |
-| 69   | VPS融合 VPSFusion  | 香港 VPS / 多国节点                               | 信用卡 / PayPal                          | \$6 / 月                     | [前往](https://www.vpsfusion.com/) |
-| 70   | VPS小飞侠 VPSX     | 香港 VPS / 海外节点                               | 信用卡 / PayPal                          | \$5+ / 月                    | [前往](https://vpsx.com/) |
-| 71   | 海内外 HostNamaste | 香港 / 全球 VPS                                   | 信用卡 / PayPal                          | \$6+ / 月                    | [前往](https://hostnamaste.com/) |
-| 72   | KoDDoS 高防主机    | 香港高防 VPS                                     | 信用卡 / PayPal                          | \$20+ / 月                   | [前往](https://koddos.net/) |
-| 73   | Asia.Cloud 云服务器 | 香港 VPS / 云主机                                 | 信用卡 / PayPal                          | \$20+ / 月                   | [前往](https://asia.cloud/) |
-| 74   | 31IDC 香港主机     | 香港 VPS / 服务器                                 | 信用卡 / PayPal                          | \$10+ / 月                   | [前往](https://www.31idc.com/) |
-| 75   | HostEase 香港 VPS  | 香港 VPS / 企业托管                               | 信用卡 / PayPal                          | ~\$11.9 / 月                 | [前往](https://www.hostease.com/) |
-| 76   | onetechcloud 易科云      | 香港 / 美日韩 / CN2 网络                           | 支付宝 / 微信 / PayPal                   | ¥66/月起                      | [前往](https://www.vpsno.com) |
-| 77   | BageVM                 | 香港、东京、新加坡、欧美                           | 信用卡 / USDT / 支付宝                   | \$?? / 月                    | [前往](https://bagevm.com/) |
-| 78   | VPSHosting 香港        | 香港本地 VPS / 云主机                             | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.vpshosting.com.hk/) |
-| 79   | HOSTKEY 香港 VPS       | 香港 VPS / 高可用                                  | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://hostkey.com/vps/hong-kong/) |
-| 80   | Arise Server 香港       | 香港 VPS / 多机房                                  | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.ariseserver.com/hong-kong-vps-server/) |
-| 81   | BlueVPS                | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://bluevps.com/vps-hong-kong) |
-| 82   | MonoVM                 | 香港 VPS / 全球节点                                | 信用卡 / PayPal                          | \$16.99 起/月               | [前往](https://www.monovm.com/) |
-| 83   | PQ.Hosting             | 香港 VPS                                          | 信用卡 / PayPal                          | €4.77 起/月                 | [前往](https://pq.hosting/) |
-| 84   | Shinjiru 香港 VPS      | 香港及离岸运营                                     | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.shinjiru.com/) |
-| 85   | ScalaHosting 香港       | 香港 VPS / SSD VPS                                 | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.scalahosting.com/) |
-| 86   | Hostinger 香港 VPS     | 香港 VPS / 全球节点                                | 信用卡 / PayPal                          | \$? / 月                     | [前往](https://www.hostinger.com/) |
-| 87   | Kowloon Hosting        | 香港 VPS (虽然评价一般)                           | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.kowloonhosting.com/) |
-| 88   | is*hosting 香港 VPS     | 香港 VPS / 云托管                                  | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://ishosting.com/en/vps/hk) |
-| 89   | MonoServers 香港       | 香港 VPS / 自定义                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://monoservers.com/) |
-| 90   | Nexril VPS             | 香港 VPS / 高防 VPS                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://nexril.com/) |
-| 91   | Litestar Cloud         | 香港 VPS / 云主机                                  | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://litestarcloud.com/) |
-| 92   | DataCamp 香港 VPS      | 香港 VPS / 多线优化                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://datacamp.hk/) |
-| 93   | 7Hosts 香港 VPS        | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://7hosts.com/) |
-| 94   | Vultr 香港节点         | 全球节点含香港                                    | 信用卡 / PayPal                          | \$5/月起                    | [前往](https://www.vultr.com/) |
-| 95   | Kamatera 香港节点       | 全球云含香港                                     | 信用卡 / PayPal                          | \$12/月起                   | [前往](https://www.kamatera.com/cloud-vps/hong-kong-vps-hosting/) |
-| 96   | Hawk Host 香港节点      | 全球节点含香港                                    | 信用卡 / PayPal                          | \$5/月起                    | [前往](https://www.hawkhost.com/) |
-| 97   | HostUS 香港 VPS         | 香港及多国节点                                    | 信用卡 / PayPal                          | \$6/月起                    | [前往](https://www.hostus.us/) |
-| 98   | KoDDoS 高防香港 VPS     | 香港 VPS / 高防服务                                | 信用卡 / PayPal                          | \$20/月起                   | [前往](https://koddos.net/) |
-| 99   | Navicosoft 香港 VPS     | 香港 VPS / 无限带宽                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.navicosoft.com/zh/vps-hosting-in-hong-kong/) |
-| 100  | EDIS Global 香港 VPS   | 香港 VPS / 多协议支持                              | 加密货币 / 信用卡                        | €7.99/月起                  | [前往](https://www.edisglobal.com/vps-hosting/hongkong-kwai-chung) |
-| 101  | VPSServer 香港 VPS      | 香港 VPS                                          | 信用卡 / PayPal                          | \$4.99/月起                 | [前往](https://www.vpsserver.com/hong-kong-vps/) |
-| 102  | VPShosting 香港本地     | 香港 VPS / 云服务器                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.vpshosting.com.hk/) |
-| 103  | Shinjiru Offshore 香港 | 香港节点 VPS                                      | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.shinjiru.com/) |
-| 104  | UltraHost 香港 VPS      | 香港及多节点 VPS                                   | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.ultahost.com/) |
-| 105  | Scala VPS 香港节点      | 香港 VPS / SSD Cloud                                | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.scalahosting.com/) |
-| 106  | AsiaVPS / GigsGigsCloud | 香港及多国                                       | 信用卡 / PayPal                          | \$29/月起                   | [前往](https://www.gigsgigscloud.com/) |
-| 107  | Asia.Cloud 香港节点     | 香港 VPS                                          | 信用卡 / PayPal                          | \$20/月起                   | [前往](https://asia.cloud/) |
-| 108  | AsiaYun VPS            | 香港节点 VPS                                       | 支付宝 / 微信                            | ￥??/月                     | [前往](https://www.asia.cloud/) |
-| 109  | OneTechCloud 香港机房   | 香港 VPS                                          | 支付宝 / 微信                            | ¥66/月起                    | [前往](https://www.vpsno.com) |
-| 110  | KowloonHosting         | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.kowloonhosting.com/) |
-| 111  | VPSMall 香港 VPS        | 香港节点                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.vpsmall.com/) |
-| 112  | FastHongKongVPS        | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.fasthongkongvps.com/) |
-| 113  | HongKongCloud          | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.hongkongcloud.com/) |
-| 114  | HKCloudHost            | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.hkcloudhost.com/) |
-| 115  | AsiaEdge VPS           | 香港 VPS                                          | 信用卡 / PayPal                          | \$?? / 月                    | [前往](https://www.asiaedgevps.com/) |
+| 序号 | 商家名称                    | 主要节点 / 机房（含香港）              | 支付方式示例                     | 价格区间（参考）                          | 详情链接                                                                      |
+| -- | ----------------------- | --------------------------- | -------------------------- | --------------------------------- | ------------------------------------------------------------------------- |
+| 01 | 搬瓦工 BandwagonHost       | 香港（部分套餐）、洛杉矶 CN2 GIA、纽约、荷兰等 | 支付宝 / 银联 / PayPal / Visa   | $49.99/年 起（CN2 方案），香港方案约 $10–20/月 | [前往](https://bandwagonhost.com/aff.php?aff=68113&pid=44)                  |
+| 02 | DogYun 狗云               | 香港、澳大利亚、韩国、日本、俄罗斯、美国等       | 支付宝 / 微信 / 银联              | 约 ¥10–50 / 月                      | [前往](https://www.dogyun.com/?ref=jv98open)                                |
+| 03 | 萤光云 YGCloud             | 香港、中国内地、东南亚、中东、欧美多节点        | 支付宝 / 微信                   | 约 $6.77 / 月 起                     | [前往](https://console.ygcloud.com/quick.html?ref=s37pp3yy&promoteWay=LINK) |
+| 04 | 野草云                     | 香港、美国西海岸等                   | 支付宝 / 银联 / Stripe / PayPal | 约 ¥38 / 月 起                       | [前往](https://my.yecaoyun.com/aff.php?aff=1601)                            |
+| 05 | 恒创科技 HengHost           | 香港、日本、韩国、美国等                | 支付宝 / 银联 / PayPal          | 年付约 ¥296 起                        | [前往](http://my.henghost.com/aff.php?aff=7209)                             |
+| 06 | HostYun                 | 香港、日本、美国、韩国等                | 支付宝 / 银联                   | 约 ¥20–100 / 月                     | [前往](https://my.hostyun.com/page.aspx?c=referral&u=26481)                 |
+| 07 | LightNode               | 香港、韩国、泰国、越南、新加坡、中东、欧美等      | 支付宝 / 信用卡 / PayPal / 银联 等  | 约 $7–20 / 月（按小时计费）                | [前往](https://www.lightnode.com/?inviteCode=MOGNKA&promoteWay=LINK)        |
+| 08 | RAKsmart                | 香港、美国、韩国、日本                 | 加密货币 / 支付宝 / PayPal / 信用卡  | 香港入门机型约 $5–15 / 月                 | [前往](https://billing.raksmart.com/whmcs/aff.php?aff=3737&pid=138)         |
+| 09 | DMIT                    | 香港、东京、洛杉矶、圣何塞               | 支付宝 / 信用卡 / PayPal / 银联    | 约 $6.9 / 月 起                      | [前往](https://www.dmit.io/aff.php?aff=3484)                                |
+| 10 | DIYVM                   | 香港、美国、日本                    | 支付宝 / 微信                   | 香港机型约 ¥50 / 月 起                   | [前往](https://www.diyvm.com/page.aspx?c=referral&u=86008)                  |
+| 11 | HostKVM                 | 香港、日本、新加坡、美国、韩国、俄罗斯等        | 支付宝 / PayPal               | 常见档 $7–15 / 月                     | [前往](https://my.hostkvm.com/aff.php?aff=1175)                             |
+| 12 | 硅云 VPSOR                | 香港、新加坡、东京、硅谷、法兰克福等          | 支付宝 / 微信 / 银联              | 年付约 ¥238 起                        | [前往](https://www.vpsor.cn/activity/cloudsite?userCode=ph15c53)            |
+| 13 | 新天域互联 Simcentric        | 香港本地多机房、台湾                  | 支付宝 / 银联 / 信用卡 / 加密货币      | 多为千元 / 月级别                        | [前往](https://www.simcentric.com/sc/)                                      |
+| 14 | JTTI                    | 香港、美国、新加坡等                  | 支付宝 / 银联 / PayPal / USDT   | 香港机型约 $8 / 月 起                    | [前往](https://www.jtti.cc/zh/offers?k=6PFTD10)                             |
+| 15 | Hawk Host               | 香港、新加坡、洛杉矶、荷兰等              | 信用卡 / PayPal /（部分渠道支持支付宝）  | 约 $5–15 / 月                       | [前往](https://www.hawkhost.com/)                                           |
+| 16 | Kamatera                | 全球云（含香港、东京、纽约、伦敦等）          | 信用卡 / PayPal               | 按量计费，入门约 $4–12 / 月                | [前往](https://www.kamatera.com/cloud-vps/hong-kong-vps-hosting/)           |
+| 17 | HostUS                  | 香港、美国、英国、荷兰等                | PayPal / 信用卡 / 加密货币        | 香港套餐约 $6–15 / 月                   | [前往](https://www.hostus.us/)                                              |
+| 18 | KoDDoS                  | 香港、荷兰等高防机房                  | 信用卡 / PayPal / 加密货币        | 香港高防 VPS 约 $20+ / 月               | [前往](https://koddos.net/)                                                 |
+| 19 | UltaHost                | 香港、美国、欧洲多机房                 | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $5–20 / 月                | [前往](https://www.ultahost.com/)                                           |
+| 20 | TheServerHost（香港 VPS）   | 香港、新加坡、美国等（多为代管机房）          | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://theserverhost.com/)                                          |
+| 21 | Asia.Cloud              | 香港、新加坡、日本、美国等               | 信用卡 / PayPal               | 香港云服务器约 $20+ / 月                  | [前往](https://asia.cloud/)                                                 |
+| 22 | HostZealot              | 香港、荷兰、美国、俄罗斯等               | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $6+ / 月                  | [前往](https://www.hostzealot.com/vps/location-hong-kong)                   |
+| 23 | 31IDC                   | 香港、美国、韩国等                   | 支付宝 / 网银 / 银联 等            | 香港 VPS 约 ¥60+ / 月                 | [前往](https://www.31idc.com/vps_hk.html)                                   |
+| 24 | HostEase                | 香港、美国等                      | 信用卡 / PayPal               | 香港 VPS 约 $11.9 / 月 起              | [前往](https://www.hostease.com/hkvps.html)                                 |
+| 25 | AsiaVPS / GigsGigsCloud | 香港、新加坡、日本、马来西亚等             | 信用卡 / PayPal               | 香港 KVM VPS 约 $18 / 年–$30+ / 月     | [前往](https://www.gigsgigscloud.com/)                                      |
+| 26 | PureVoltage             | 香港、洛杉矶、纽约等                  | 信用卡 / PayPal               | 香港 VPS / 独服多为定制报价                 | [前往](https://purevoltage.com/datacenters/hongkong-data-center/)           |
+| 27 | 华为云 Hong Kong           | 香港区域云服务器 / ECS              | 信用卡 / 借记卡 / 本地支付 等         | 入门云服务器约 ¥30+ / 月                  | [前往](https://www.huaweicloud.com/intl/zh-cn/)                             |
+| 28 | 腾讯云 Hong Kong           | 香港 CVM / 轻量应用服务器            | 微信 / 支付宝 / 银联 / 信用卡        | 活动价可至 ¥15+ / 月，原价约 ¥30+ / 月       | [前往](https://cloud.tencent.com/product/cvm)                               |
+| 29 | 阿里云 Hong Kong           | 香港 ECS 云服务器                 | 支付宝 / 信用卡 / 银联             | 入门配置约 ¥20–60 / 月                  | [前往](https://www.alibabacloud.com/product/ecs)                            |
+| 30 | UCloud 香港               | 香港、公有云多节点（首尔、新加坡等）          | 信用卡 / 对公转账 等               | 轻量云主机约 ¥20+ / 月                   | [前往](https://www.ucloud.cn/)                                              |
+| 31 | 青云 QingCloud            | 北京、上海、广东、香港等区域              | 支付宝 / 微信 / 对公转账            | 通用云主机约 ¥30+ / 月                   | [前往](https://www.qingcloud.com/)                                          |
+| 32 | CITIC Telecom CPC       | 以香港为核心，覆盖亚太与欧洲多机房           | 企业合同 / 信用卡                 | 企业云 / VPS 按需定制报价                  | [前往](https://www.citictel-cpc.com/)                                       |
+| 33 | GreenCloudVPS 绿云        | 香港、日本、美国、欧洲多机房              | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $8+ / 月                  | [前往](https://greencloudvps.com/)                                          |
+| 34 | ServerZone              | 香港、美国、荷兰等                   | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://serverzone.net/)                                             |
+| 35 | Exabytes                | 香港、新加坡、马来西亚等                | 信用卡 / PayPal               | 香港 VPS 约 $7–20 / 月                | [前往](https://www.exabytes.com/)                                           |
+| 36 | Cloudzy                 | 香港、新加坡、美国、欧洲等               | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $7+ / 月                  | [前往](https://cloudzy.com/)                                                |
+| 37 | OneTechCloud 易科云        | 香港、日本、美国等（部分 CN2 线路）        | 支付宝 / 微信 / PayPal          | 香港 VPS 约 ¥66 / 月 起                | [前往](https://www.vpsno.com)                                               |
+| 38 | BageVM                  | 香港、东京、新加坡、洛杉矶等              | 支付宝 / USDT / 信用卡 等         | 香港 VPS 多为按配置计价，约 $5–20 / 月        | [前往](https://bagevm.com/)                                                 |
+| 39 | VPSHosting 香港           | 香港本地数据中心                    | 信用卡 / PayPal               | 香港 KVM VPS 约 $10+ / 月             | [前往](https://www.vpshosting.com.hk/)                                      |
+| 40 | HOSTKEY                 | 香港、荷兰、冰岛、美国等                | 信用卡 / PayPal / 加密货币        | 香港 VPS / 独服约 $10+ / 月             | [前往](https://hostkey.com/vps/hong-kong/)                                  |
+| 41 | BlueVPS                 | 香港、伦敦、阿姆斯特丹等                | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $7+ / 月                  | [前往](https://bluevps.com/vps-hong-kong)                                   |
+| 42 | MonoVM                  | 香港、美国、欧洲等                   | 信用卡 / PayPal / 比特币 等       | 香港 VPS 约 $16.99 / 月 起             | [前往](https://www.monovm.com/)                                             |
+| 43 | PQ.Hosting              | 香港、德国、荷兰等                   | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 €4.77 / 月 起              | [前往](https://pq.hosting/)                                                 |
+| 44 | Shinjiru                | 香港、马来西亚、欧洲等（离岸 / 保护隐私）      | 信用卡 / PayPal / 比特币 等       | 香港 VPS 约 $10+ / 月                 | [前往](https://www.shinjiru.com/)                                           |
+| 45 | ScalaHosting            | 香港（合作机房）、美国、欧盟              | 信用卡 / PayPal               | 云 VPS 约 $10+ / 月                  | [前往](https://www.scalahosting.com/)                                       |
+| 46 | KowloonHosting          | 香港本地 IDC                    | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://www.kowloonhosting.com/)                                     |
+| 47 | is*hosting              | 香港、荷兰、美国等                   | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $5–15 / 月                | [前往](https://ishosting.com/en/vps/hk)                                     |
+| 48 | Nexril                  | 香港、洛杉矶、达拉斯等                 | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $8+ / 月                  | [前往](https://nexril.com/)                                                 |
+| 49 | Vultr                   | 香港、新加坡、东京、洛杉矶等              | 信用卡 / PayPal / 加密货币        | Cloud Compute 约 $5 / 月 起          | [前往](https://www.vultr.com/)                                              |
+| 50 | Navicosoft              | 香港、伦敦等                      | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://www.navicosoft.com/zh/vps-hosting-in-hong-kong/)             |
+| 51 | EDIS Global             | 香港葵涌、奥地利、德国等                | 信用卡 / PayPal / 加密货币        | 香港 KVM VPS 约 €7.99 / 月 起          | [前往](https://www.edisglobal.com/vps-hosting/hongkong-kwai-chung)          |
+| 52 | VPSServer               | 香港、伦敦、纽约等                   | 信用卡 / PayPal               | 香港 VPS 约 $4.99 / 月 起              | [前往](https://www.vpsserver.com/hong-kong-vps/)                            |
 
+---
 
 > ⚠️ 以上价格与线路信息为基于原始页面内容的「参考值」，以各官网实时报价为准。  
 > 本 README 只做汇总与梳理，不构成任何形式的投资/采购保证。
