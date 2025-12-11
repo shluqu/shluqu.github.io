@@ -232,12 +232,13 @@
 
 ---
 
-## 七、推荐延伸阅读（可作为仓库内其他文档）
 
-- `hongkong-vps-v2ray.md` – 在合规前提下，如何为个人服务优化网络加速体验（理论与原理向）  
-- `hongkong-vps-for-wordpress.md` – 在香港 VPS 上部署 WordPress 建站实战笔记  
-- `cn2-vs-bgp-vs-163.md` – 常见回国线路简单科普与选型建议  
-- `cheap-hk-vps-<=20rmb.md` – 20 元以内香港 VPS 汇总与风险说明  
+## 七、推荐延伸阅读（来自本站内容）
+
+- [香港vps搭建网络加速器（V2Ray 相关）](https://shluqu.github.io/domestic-vps.html)
+- [香港 VPS 建站：WordPress 部署教程](https://shluqu.github.io/wordpress-virtual-host.html)
+- [CN2 / BGP / 163 回国线路区别科普](https://shluqu.github.io/server-hongkong-gia.html)
+- [20 元以下香港 VPS 汇总推荐](https://shluqu.github.io/hongkong-server.html)
 
 > 你可以把上面这些当作 TODO，将现有文章拆分成多个 Markdown 文档，挂到 README 的延伸阅读里。
 
