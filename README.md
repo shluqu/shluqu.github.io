@@ -86,12 +86,12 @@
 | 40 | HOSTKEY                 | 香港、荷兰、冰岛、美国等                | 信用卡 / PayPal / 加密货币        | 香港 VPS / 独服约 $10+ / 月             | [前往](https://hostkey.com/vps/hong-kong/)                                  |
 | 41 | BlueVPS                 | 香港、伦敦、阿姆斯特丹等                | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $7+ / 月                  | [前往](https://bluevps.com/vps-hong-kong)                                   |
 | 42 | MonoVM                  | 香港、美国、欧洲等                   | 信用卡 / PayPal / 比特币 等       | 香港 VPS 约 $16.99 / 月 起             | [前往](https://www.monovm.com/)                                             |
-| 43 | PQ.Hosting              | 香港、德国、荷兰等                   | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 €4.77 / 月 起              | [前往](https://pq.hosting/)                                                 |
+| 43 | PQ.Hosting              | 香港、德国、荷兰等                   | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 €4.77 / 月 起              | [前往](https://the.hosting/)                                                 |
 | 44 | Shinjiru                | 香港、马来西亚、欧洲等（离岸 / 保护隐私）      | 信用卡 / PayPal / 比特币 等       | 香港 VPS 约 $10+ / 月                 | [前往](https://www.shinjiru.com/)                                           |
 | 45 | ScalaHosting            | 香港（合作机房）、美国、欧盟              | 信用卡 / PayPal               | 云 VPS 约 $10+ / 月                  | [前往](https://www.scalahosting.com/)                                       |
 | 46 | KowloonHosting          | 香港本地 IDC                    | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://www.kowloonhosting.com/)                                     |
 | 47 | is*hosting              | 香港、荷兰、美国等                   | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $5–15 / 月                | [前往](https://ishosting.com/en/vps/hk)                                     |
-| 48 | Nexril                  | 香港、洛杉矶、达拉斯等                 | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $8+ / 月                  | [前往](https://nexril.com/)                                                 |
+| 48 | Nexril                  | 香港、洛杉矶、达拉斯等                 | 信用卡 / PayPal / 加密货币        | 香港 VPS 约 $8+ / 月                  | [前往](https://nexril.net/)                                                 |
 | 49 | Vultr                   | 香港、新加坡、东京、洛杉矶等              | 信用卡 / PayPal / 加密货币        | Cloud Compute 约 $5 / 月 起          | [前往](https://www.vultr.com/)                                              |
 | 50 | Navicosoft              | 香港、伦敦等                      | 信用卡 / PayPal               | 香港 VPS 约 $10+ / 月                 | [前往](https://www.navicosoft.com/zh/vps-hosting-in-hong-kong/)             |
 | 51 | EDIS Global             | 香港葵涌、奥地利、德国等                | 信用卡 / PayPal / 加密货币        | 香港 KVM VPS 约 €7.99 / 月 起          | [前往](https://www.edisglobal.com/vps-hosting/hongkong-kwai-chung)          |
