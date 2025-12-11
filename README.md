@@ -59,8 +59,7 @@
 | 12   | 硅云 VPSOR            | 香港、新加坡、东京、硅谷、法兰克福等             | 支付宝 / 微信 / 银联                      | 年付约 238 元起               | [前往](https://www.vpsor.cn/activity/cloudsite?userCode=ph15c53) |
 | 13   | 欧亚云                | 美国 CN2 GIA / 9929 / 4837 等                    | 支付宝 / 银联                            | 年付约 199 元起               | [前往](https://www.ouyayun.com/aff/REYAKJEM) |
 | 14   | 新天域互联 Simcentric | 香港、台湾                                      | 支付宝 / 银联 / 信用卡 / 加密货币        | 千元/月级别                   | [前往](https://www.simcentric.com/sc/) |
-| 15   | Sugarhosts 糖果主机   | 香港、美国、荷兰                                 | 支付宝 / 信用卡 / PayPal                 | 云 VPS 年付 700+ 元           | [前往](https://www.sugarhosts.com/members/aff.php?aff=3508) |
-| 16   | JTTI                  | 香港、美国、新加坡                              | 支付宝 / 银联 / PayPal / USDT            | 港服 \$8.31 / 月起            | [前往](https://www.jtti.cc/zh/offers?k=6PFTD10) |
+| 15   | JTTI                  | 香港、美国、新加坡                              | 支付宝 / 银联 / PayPal / USDT            | 港服 \$8.31 / 月起            | [前往](https://www.jtti.cc/zh/offers?k=6PFTD10) |
 
 
 > ⚠️ 以上价格与线路信息为基于原始页面内容的「参考值」，以各官网实时报价为准。  
